@@ -1,0 +1,5 @@
+/home/tmitic/Node-JS-Playground/hands-on-node/.metadata/.plugins/org.eclipse.dltk.mod.core/2792434687.index
+/home/tmitic/Node-JS-Playground/hands-on-node/.metadata/.plugins/org.eclipse.dltk.mod.core/2609796347.index
+/home/tmitic/Node-JS-Playground/hands-on-node/.metadata/.plugins/org.eclipse.dltk.mod.core/1358609860.index
+/home/tmitic/Node-JS-Playground/hands-on-node/.metadata/.plugins/org.eclipse.dltk.mod.core/1476284279.index
+/home/tmitic/Node-JS-Playground/hands-on-node/.metadata/.plugins/org.eclipse.dltk.mod.core/3197578729.index

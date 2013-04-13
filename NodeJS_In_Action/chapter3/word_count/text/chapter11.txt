@@ -1,0 +1,81 @@
+Network Programming
+
+Every network application is based on the client-server model
+  - with this model, an application consists of a server process and one or more client processes
+  - a server manages some resource, and it provides some service for its clients by manipulating that resource
+  - for example, a web server manages a set of disk files that it stores and retrieves and executs on behalf of clients
+  - an ftp server manages a set of disk files that it stores and retrieves for clients
+  - an email server manages a spool file that ir reads and updates for clients
+
+The fundamental operation in the client-server model is the transaction
+  - a client-server transaction consists of four steps
+      1.  when client needs service, it initiates a transaction by sending a request to the server. For example, when
+	  a web browser needs a file, it send a request to a Web server
+      2.  the server receives the request, interprets it, and manipulates its resources in the appropriate way. For
+	  example, when a web server receives a request from a browser, it reads a disk file.
+      3.  the server sends a response to the client, and then waits for the next request. For example, a web server
+	  sends the file back to a client
+      4.  The client receives the response and manipulates it. For example, after a web browser receives a page from
+	  the server, it desplays it on the screen.
+
+It is important to realize that clients and servers are processes and not machines, or hosts as they are called in
+this context
+  - a single host can run many different clients and servers concurrently
+  - a client and server transaction can be on the same or different hosts
+  - the client server mosel is the same, regardless of the mapping of clients and servers to hosts
+
+Client-server transactions vs. database transactions
+
+Client server transaction are not database transaction and do not share any of their properties, such as atomicity
+  - in our context, a transaction is simply a sequence of steps caried out by a client and a server
+
+11.2 Networks
+
+Clients and servers often run on separate hosts and communicate using the hardware and software resources of a computer
+network
+  - networks are sophisticated systems, and we can only hope to scratch the surface here
+  - our aim is to give you a workable mental model from a programmer's perspective
+
+To a host, a network is just another I/O device that serves as a source and sink for data, as shown in Figure 11.2
+  - an adapter plugged into an expansion slot on the I/O bus provides the physical interface to the network
+  - data received from the network is copied from the adapter across the I/O and memory buses into memory, typically
+    by a DMA transfer
+  - similarly, data can be copied from memory to the network
+
+Physically, a network is a hierarchical system that is organized by geographical proximity
+  - at the lowest level is a LAN (Local Area Network) that spans a building or campus
+  - the most popular Lan technology so far is Ethernet, which was developed in the mid-1970s at Xerox-Parc
+  - Ethernet has proven to be remarkably resilient, evolving from 3 Mb/s to 10 Gb/s
+
+An etherner segment consists of some wires (usually twisted pairs of wires) and a small box called a hub, as shown in
+figure 11.3
+  - ethernet segments typically span small areas, such as a room or oa floor in a building
+  - each wire has the same maximum but bandwidth, typically 100 Mb/s or 1 Gb/s
+  - ine end is attached to an adapter on a host, and the other end is attached to a port on the hub
+  - a hub slavishly copies every bit that it receives on each port to every other port
+  - thus every host see every bit
+
+Each ethernet adapter has a globally unique 48-bit address that is stored in a non-volatile memory on the adapter
+  - a host can send a chunk of buts called frame to any other host on the segment
+  - each frame includes some fixed number of header bits that identify the source and destination of the frame and 
+    the frame length, followed by a payload of data bits
+  - every host adapter sees the frams, but only the destination host actually reads it
+
+Multiple ethernet segments can be connected into larger LANs, called bridged Ethernets, using a set of wires and small
+boxes called bridges, shown in figure 11.4
+  - bridges ethernets can span entire buildings or campuses
+  - in a bridged ethernet, some wires connect bridges to bridges, and others connect bridges to hubs
+  - the bandwidths of wires can be different
+  - in our example, the bridge-brdge wire has a 1 Gb/s bandwidth, while the four hub-bridge wires have bandwidths of
+    100 Mb/s
+
+Bridges make better use of the available wire bandwidth than hubs
+  - using a clever distributed algorithm, they automatically learn over time which hosts are reachable from which ports,
+    and then selectively copy frames from one port to another only when it is necessary
+  - for example, if host A sends a frame to host B, which is on thr segment, then bridge X will throw away the frame
+    when it arrives at its input port, thus saving bandwidth on the other segments
+  - however, if host A sends a frame to host C on a different segment, then bridge X will copy the frame only to the
+    port connected to bridge Y, which will copy the frame only to the port connected to bridge C's segment
+
+At a higher level in the hierarchy, multiple incompatible LAN's can be connected by specialized computers called
+routers to form an internet (interconnected network).

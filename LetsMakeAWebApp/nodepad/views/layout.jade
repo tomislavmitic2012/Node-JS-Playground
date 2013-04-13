@@ -1,0 +1,21 @@
+!!!
+html
+  head
+    title= 'NodePad'
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/aristo/jquery-ui-1.8.5.custom.css')
+  body
+    #container
+      #header
+        ul
+          li
+            h1
+              a(href='/') NodePad
+          - if (typeof currentUser !== 'undefined')
+            li.right
+              a.destroy(href='/sessions') Log Out
+      != body
+    script(type='text/javascript', src='/javascripts/json.js')
+    script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js')
+    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js')
+    script(type='text/javascript', src='/javascripts/application.js')

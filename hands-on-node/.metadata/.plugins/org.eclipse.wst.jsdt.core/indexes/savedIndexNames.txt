@@ -1,0 +1,1 @@
+INDEX VERSION 1.122+/home/tmitic/Node-JS-Playground/hands-on-node/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes

@@ -1,0 +1,444 @@
+Chapter 10 Notes
+
+To this point in the study of computer systems, we have assumed that program run in isolation, with minimal input and
+output
+  - in the real world, application programs use services provided by the operating system to communicate with I/O
+    devices and with other programs
+
+This part of the book will give you an understanding of the basiv I/O services provided by the Unix operating system,
+and how to use these services to build applications such as WWeb clients and servers that communicate with each other
+over the Internet
+  - you will learn techniques for writing concurrent programs such as Web servers that can service multiple clients
+    at the same time
+  - writiting concurrent application programs can also allow them to execute faster on modern multi-core processors
+  - when you finish this part, you will be on your way to becoming a power programmer with a mature understanding
+    of computer systems and their impact on programs
+
+Input/Output (I/O) is the process of copying data between main memory and external devices such as disk drives,
+terminals, and networks
+  - an input operation copies data from an I/O device to main memory, and an output operation copies data from memory
+    to a device
+
+All language run-time systems provide higher-level facilities for performing I/O
+  - for example, ANSI C provides the standard I/O library, with functions such as printf and scanf that perform
+    buffered I/O
+  - C++ provides similar functionality with its overloaded << ("put to") and >> ("get from") operators
+  - on Unix systems, these higher-level I/O functions are implemented using system-level Unix I/O functions provided
+    by the kernel
+  - most of the time, the higher-level functions work quite well and there is no need to use Unix I/O directly
+
+Why must you learn Unix I/O?
+  - Understanding Unix I/O will help you understand other systems concepts: I/O is integral to the operation of a
+    system, and b/c of this we often encounter curcular dependencies between I/O and other systems ideas. 
+      *	For example, I/O plays a key rile in process creation and execution. 
+      *	Conversely, process creation plays a key role in how files are shared by different processes.
+      *	Thus, to really understand I/O you need to understand processes, and vice versa.
+      *	We have already touched on aspects of I/O in our discussions of the memory hierarchy, linking and loading,
+	processes, and virtual memory.
+      *	now that you have a better understanding of these ideas, we can close the circle and delve into I/O in more
+	detail
+  - Sometimes you have no choice but to use Unix I/O: ther are soem important cases where using higher level I/O
+    functions is either impossible or inappropriate
+      *	for example, the standard I/O library provides no way to access file metadata such as file size or file
+	creation time
+      *	further, there are problems with the standard I/O library that make it risky to use for netowork programming
+
+This chapter introduces you to the general concepts of Unix I/O and standard I/O, and sows you how to use them reliably
+from your C programs
+  - besides serving as a general introduction, this chapter lays a firm foundation for our subsequent study of network
+    programming and concurrency
+
+Unix I/O
+
+A Unix file is a sequence of m bytes:
+
+    B_0, B_1, ..., B_k, ..., B_(m - 1)
+
+  - all I/O devices, such as networks, disks, and terminals, are modeled as files, and all inout and output is per-
+    formed by reading and writing the appropriate files
+  - this elegant mapping of devices to files allows the Unix kernel to export, a simple low-level application inter-
+    face, known as Unix I/O, that enables all input and output to be performed in a uniform and consistent way
+      * Opening files: An applicaiton announces it intention to access an I/O device by asking the kernel to open
+	the corresponding file. The kernel returns a small nonnegative integer, called a descriptor, that identifies
+	the file in all subsequent operations on the file. The kernel keeps track of all information about the open
+	file. The application only keeps track of the descriptor.
+	  - each process created by a Unix shell begins life with three open files: standard input (descriptor 0),
+	    standard output (descriptor 1), and standard error (descriptor 2)
+	  - the header file <unistd.h> defines constants STDIN_ FILENO, STDOUT_ FILENO, and STDERR_ FILENO, which
+	    can be used instead of the explicit descriptor values
+      *	Changing the current file position: the kernel maintains a file position k, initially 0, for each open file.
+	The file position is a byte offset from the beginning of a file. An application can set the current file
+	position k explicitly be performing a seek operation.
+      *	Reading and writing files: a read operation copies n > 0 bytes from a file to memory, starting at the current
+	file position k, and then incrementing k by n. Given a file with a size of m bytes, performing a read operation
+	when k >= m triggers a condition known as end-of-file (EOF), which can be detected by the application. There
+	is no explicit "EOF character" at the end of the file.
+	  - similarly, a write operation copies n > 0 bytes from memory to a file, starting at the current file
+	    position k, and then ipdating k.
+      *	Closing files: when an application has finished accessing the file, it informs the kernel by asking it to close
+	the filw. The kernel responds by freeing the data structures it created when the file was opened and restoring
+	the descriptos to a pool of available descriptors
+	  - when a process terminates for any reason, the kernel closes all open files and frees their memory resources
+
+Opening and Closing Files
+
+A process opens an existing file or creates a new file by calling the open function:
+
+      #include <sys/types.h>
+      #include <sys/stat.h>
+      #include <fcntl.h>
+
+      int open( char *filename, int flags, mode_t mode );     //  Returns: new file descriptor if OK, -1 on error
+
+The open function converts a filename to a file descriptor and returns the descriptor number
+  - the descriptor returned is always the smallest descriptor that is not currently open in the process
+  - the flags argument indicates how the process intends to access the file:
+      *	O_RDONLY: Reading only
+      *	O_WRONLY: Writing only
+      *	O_RDWR: Reading and writing
+  - below is an example of how to open an existing file for reading
+
+      fd = Open( "foo.txt", O_RDONLY, 0 );
+
+  - the flags argument can also be or'ed with one or more bit masks that provide additional instructions for writing
+      *	O_CREAT: if the file doesn't exist, then create a truncated (empty) version of it
+      *	O_TRUNC: if the file already exists, then truncate it
+      *	O_APPEND: before each write operation, set the file position to the end of the file
+  - below is an example of how to open an existing file with the intent of appending some data:
+
+      fd = Open( "foo.txt", O_WRONLY | O_APPEND, 0 );
+
+  - The mode argument specifies the access permission bits of the new files
+      *	the symbolic names for these bits are shown in figure 10.1
+      *	as part of its contect, each process has a umask that is set by calling the umask function
+      *	when a process creates a new file by calling the open function with some mode argument, then the access
+	permission bits of the file are set to mode & ~umask
+      * for example, if we were given the following default values for mode and umask
+
+	  #define DEF_MODE S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH
+	  #define DEF_UMASK S_IWGRP | S_IWOTH
+
+      *	the following code fragment creates a new file in which the owner of the file has read and write permissions,
+	an all other users have read permissions
+
+	  umask( DEF_UMASK );
+	  fd = Open( "foo.txt", O_CREAT | O_TRUNC | O_WRONLY, DEF_MODE );
+
+A process closes an open file by calling the close function
+
+    #include <unistd.h>
+
+    int close( int fd );	//  Returns: zero if OK, -1 on error
+
+  - closing a descriptor that is already closed is an error
+
+Reading and Writing Files
+
+Applications perform input and output by calling the read and write functions repectively
+
+    #include <unistd.h>
+
+    ssize_t read(int fd, void *buf, size_t n);	  //  Returns: number of bytes read if OK, 0 on EOF, -1 on error
+
+    ssize_t write(int fd, void *buf, size_t n);	  //  Returns: number of bytes written if OK, -1 on error
+
+  - The read function copies at most n bytes from the current file porition of descriptor fd to memory location buf
+  - a return values of -1 indicates an error, and a return value of 0 indicates EOF
+  - otherwise, the return value indicates the number of bytes that were actually transferred
+
+The write function copies at most n bytes from memory location buf to the current file position of descriptor fd
+  - firgure 10.2 shows a program that uses read and write calls to copy the standard input to the standard output,
+    1 byte at a time
+
+Applications can explicitly modify the current file position by calling the lseek function, which is beyond our scope
+
+What's the difference between ssize_t and size_t
+  - you might have noticed that the read function has a size_t input argument and an ssize_t return value
+  - what's the difference between those two types?
+  - size_t is defined as an unsigned int, and an ssize_t (signed size) is defined as an int
+  - the read function returns a singed size rather than an unsigned size because it must return a -1 on error
+  - interestingly, the possibility of returning a single -1 reduces the maximum size of a read by a factor of two,
+    from 4 GB down to 2 GB
+
+In some situations, read and write transfer fewer bytes than the application requests
+  - such short counts do not indicate and error
+  - they occur for a number of reasons
+      *	Encountering EOF on reads: suppose that we are ready to read from a file that contains only 20 more bytes from
+	the current file position and that we are reading the file in 50-byte chuncks. The nthe next read will return
+	a short count of 20, and the read after that will signal EOF by returning a short count of zero
+      *	Reading text lines from a terminal: If the open file is associated with a terminal (i.e., a keyboard and 
+	display), then each read function will transfer one text line at a time, returning a short count equal to
+	the size of the text line
+      *	Reading and writing network sockets: If the open file corresponds to a network socket, then internal buffering
+	constraints and long netowkr delays can cause read and write to return short ocunts. Short counts can also
+	occur when you call read and write on a Unix pipe, an interprocess communication mechansim tht is beyond our
+	scope.
+
+In practice, you will never encounter short counts when you read from disk files except on EOF, and you will never
+encounter short ocunts when you write to disk files
+  - however, if you want to build robust (reliable) network applications such as web servers, then you must deal
+    with short counts by repeatedly calling read and write until all requested bytes have been transfered
+
+Robust Reading and Writing With the RIO Package
+
+In this section we will develop an I/O package called the RIO (Robust I/O) package, that handles these short counts
+for you automatically
+  - the RIO package provides convenient robust, and efficient I/O in applications such as network programs that are
+    subject to short counts.
+  - RIO provides two differnet kinds of functions
+      *	Unbuffered input and output functions: These functions transfer data directly between memory and a file, 
+	with no application level buffering. They are essentially useful for reading and writing binary data to
+	and from networks
+      *	Buffered input functions: These functions allow you to efficiently read text lines and binary data from a file
+	whose contents are cached in an application-level buffer, similar to the one provided for standard I/O functions
+	such as printf. The buffered RIO input functions are thread-safe and can be interleaved arbitrarily on the
+	same descriptor. For example, you can read some text lines from adescriptor, then some binary data, and then
+	some more text lines
+
+We are presenting the RIO routines for two reasons:
+  - first we will be using them in the network applications we develop in the next two cahpters
+  - second, by studying the code for these routines, you will gain a deeper understanding of Unix I/O in general
+
+RIO Unbuffered Input and Output Functions
+
+Application can transfer data directly between memory and a file by calling the rio_readn and rio_writen functions
+
+    #include "csapp.h"
+
+    ssize_t rio_readn( int fd, void *usrbuf, size_t n );
+    ssize_t rio_writen( int fd, void *usrbuf, size_t n );
+			    //	Returns: number of bytes transferred if OK, 0 on EOF (rio_readn only), -1 on error
+
+  - the rio_readn function transfers up to n bytes from the current file position of descriptor fd to memory location
+    usrbuf
+  - similarly, the rio_writen function transfers n bytes from location usrbuf to descriptor fd
+  - the rio_readn function can only return a short count if it encounter EOF
+  - the rio_writen function never returns a short count
+  - calls to rio_readn and rio_writen can be interleaved arbitrarily on the same descriptor
+  - figure 10.3 shows the code for rio_readn and rio_writen
+  - notice that each function manually restarts the read and write function if it is interrupted by the return from
+    an application signal handler
+  - to be as protable as possible, we allow for interrupted system calls and restart them when necessary
+
+RIO Buffered Input Functions
+
+A text line is a sequence of ASCII characters terminated by a newline character.
+  - on Unix systems, the newline character ('\n') is the same as the ASCII line feed character (LF) and has a numeric
+    value of 0x0a
+  - suppose we wanted to write a program that counts the number of text lines in a text file
+  - how might we do this?
+  - one approach is to use the read function to transfer 1 byte at a time from the file to the user's memory, checking
+    each byte for the newline character
+  - the disadvantage of this approach is that is is inefficient, requiring a trap to the kernel to read each byte in
+    the file
+  - a better approach is to call a wrapper functoin (rio_readlineb) that copes the text line from an internal read
+    buffer, automatically making a read call to refil the buffer whenever it becomes empty.
+  - for files that contain both text lines and binary data (such as HTTP responses) we also provide a buffered of
+    rio_readn called rio_readnb, the transfers raw bytes from the same read buffer as rio_readlineb
+
+      #include "csapp.h"
+
+      void rio_readinitb( rio_t *rp, int fd );
+
+      ssize_t rio_readlineb( rio_t *rp, void *usrbuf, size_t maxlen );
+      ssize_t rio_readnb( rio_t *rp, void *usrbuf, size_t n );
+			      //  Returns: number of bytes read if OK, 0 on EOF, -1 on error
+
+  - the rio_readinitb function is called once per open descriptor
+  - it associates the descriptor fd with a read buffer of type rio_t at address rp
+  - the rio_readlineb function reads the next text line from file rp (including the terminating newline character),
+    copies it to memory location usrbuf, and terminates the text line with the null (zero) character
+  - the rio_readlineb function reads at most maxlen - 1 bytes, leaving room for the terminating null character
+  - text lines that exceed maxlen - 1 bytes are truncated and terminated with a null character
+  - the rio_readnb function reads up to n bytes from file rp to memory location usrbuf
+  - calls to rio_readlineb and rio_readnb can be interleaved arbitrarily on the same descriptor
+  - however calls to these buffered functions should not be interleaved with calls to the unbiffered rio_readn function
+ 
+You will encounter numerour example of RIO functions in the remainder of this text
+  - figure 10.4 shows how to use the RIO functions to copy a text fiel from standard input to standard output, one
+    line at a time
+
+Reading File Metadata
+
+An application can retrieve information about a file (sometimes called the file's metadata) by calling the stat and
+fstat functions
+
+      #include <unistd.h>
+      #include <sys/stat.h>
+
+      int stat( const char *filename, struct stat *buf );
+      int fstat( int fd, struct stat *buf );
+			//  Returns: 0 if OK, -1 on error
+
+  - The stat function takes as input a file name and fills in the members of a stat structur shown in figure 10.8
+  - the fstat function is similar, but takes a file descriptor instead of a file name
+  - we will need the st_mode and st_size members of the stat structure when we discuss Web servers in Section 11.5
+  - the other members are beyond our scope
+
+The st_size member contains the file size in bytes
+  - the st_mode member encodes both the file permission bits and the file type
+  - Unix recognizes a number of different file types
+  - a regular file contains some sort of bunary or text data
+  - to the kernel there is no difference between text files and binary files
+  - a directory file contains information about other files
+  - a socket is a file that is used to communicate with another process across a network
+
+Unix provides macro predicates for determining the file tpye from the st_ mode member
+  - figure 10.9 lists a subset of these macros
+  - figure 10.10 shows how we might use these macros and the stat function to read and interpret a file's st_mode
+    bits
+
+Sharing Files
+
+Unix files can be shared in a number of different ways
+  - unless you have a clear picture of how the kernel represents open files, the idea of file sharing can be quite
+    confusing
+  - the kernel represents open files using three related data structures
+      * Descriptor table: each process has its own descriptor table whose entries are indexed by the process's open
+	file descriptors. Each open descriptor entry points to an entry in the file table
+      *	File table: the set of open files is represented by a file table that is ahred by all processes. Each table
+	entry consists of the current file position, a reference count of the number of descriptor entries that 
+	currently point to it, and a pointer to an entry in the v-node table. Closing a descriptor decrements the
+	reference count in the associated file table entry. The kernel will not delete the file table entry until
+	its reference count is zero
+      * v-node table: Like the file table, the v-node table is shared by all processes. Each entry contains most of
+	the information in the stat structur, including the st_mode and st_size members
+
+Figure 10.11 shows an exmaple where descriptors 1 and 4 reference two different files through distinct open file table
+entires
+  - this is a typical situation, where files are not shared, and where each descriptor corresponds to a distinct file
+
+Multiple descriptors can also reference the same file through different file table entries as shown in figure 10.12
+  - this might happen, for example, if you were to call the open function twice with the same filename
+  - the key idea is that each descriptor has its own distinct file position, so different threads on different
+    descriptors can fetch data from different locations in the file
+
+We can also understand how parent and child processes share files
+  - Suppose that before a call to fork, the parent process has the open files shown in figure 10.11
+  - then figure 10.13 shows the situation after the call to fork
+  - the child gets its own duplicate copy of the parent's descriptor table
+  - parent and child share the same set of open file tables, and thus share the same file position
+  - an important consequence is that the parent and child must both close their descriptors before the kernel will
+    delte the corresponding file table entry
+
+I/O Redirection
+
+Unix shells I/O redirection operators that allow users to assciate standard input and output with disk files.
+  - for example, typing
+
+      unix> ls > foo.txt
+
+    cases the shell to load and execute the ls program, with standard ouput redirected to disk file foo.txt
+  - as we will see in section 11.5, a web server performs a similar kind of redirection when is runs a CGI program
+    on behalf of the client
+  - how does I/O redirection work?
+  - one way is to use the dup2 functoin
+
+      #include <unistd.h>
+
+      int dup2( int oldfd, int newfd );	  //  Returns: nonnegative descriptor if OK, -1 on error
+
+  - the dup2 function copies descriptor table entry oldfd to descriptor table entry newfd, overwritting the previous
+    contents of descriptor table entry newfd
+  - if newfd was already open, then dup2 closes newfd before it copes oldfd
+  - suppose that before calling sup2(4, 1) we have the situation in Figure 10.11, where descriptor 1 (standard output)
+    corresponds to file A (say, a terminal), and descriptor 4 corresponds to file B (a disk file)
+  - the reference counts for A and B are both equal to 1
+  - figure 10.14 shows the situation after calling dup2(4, 1)
+  - both descriptors now point to file B, file A has been closed and its file table and v-node table entries deleted,
+    and the reference count for file B has been incremented
+  - from this point on, any data written to standard output is redirected to file B
+
+Standard I/O
+
+ANSI C defines a set of higher level input and output functions, called the standard I/O library, that provides 
+programmers with a higher-level alternative to Unix I/O
+  - the library (lib) provides functions for opening and closing files (fopen and fclose), reading and writing bytes
+    (fread and fwrite), reading and writing strings (fgets and fputs), and sophisticated formatted I/O (scanf and
+    printf).
+
+The standard I/O library models an open file as a stream
+  - to the programmer, a stream is a pointer to s structure of type FILE
+  - every ANSI C program begins with three open streams, stdin, stdout, and stderr, which correspond to standard
+    input, standard output, and standard error, respectively
+  - a stream of type FILE is an abstraction for a file descriptor and a stream buffer
+  - the purpose of the stream buffer is the same as the RIO read buffer: to minimize the number of expensive Unix
+    I/O system calls
+  - for example, suppose we have a program that makes repeated calls to the standard I/O getc function, where each
+    invocation returns the next character from a file
+  - when getc is called the first time, the library fills the stream buffer with a single call to the read function, 
+    and then returns the first byte in the buffer to the application
+  - as long as there are unread bytes in the buffer, sibsequent calls to getc can be served directly from the stream
+    buffer
+
+Putting It Together: Which I/O Functions Should I Use?
+
+Figure 10.15 summarizes the various I/O packages we have discussed in this chapter
+  - Unix I/O is implemented in the operating system kernel
+  - it is available to applications through functions suc as open, close, lseek, read, write, and stat functions
+  - the higher leve RIO and standard I/O functions are implemented on top of the Unix I/O functions
+  - the RIO functions are robust wrappers for read and write that were developed specifically for this textbook
+  - they automatically deal with short counts and provide an efficient approach for reading text lines
+  - the standard I/O fiunctions provide a more ocmplete buffered alternative to the Unix I/O functions, including
+    formatted I/O routines
+
+So which of these functions should you use in your programs?
+  - the standard I/O functions are the method of choice for I/O on disk and terminal devices
+  - most C programmers use standard I/O exclusively throughtout their careers, never bothering with the lower-level
+    Unix I/O functions
+  - whenever possible, we recommend that you do likewise
+
+Unfortunately, standard I/O poses some nasty problems when we attempt to use it for input and output on networks
+  - as we will see in section 11.4, the Unix abstraction for a network is a type of file called a socket
+  - like any Unix file, sockets are referenced by file descriptors, known in this case as socket descriptors
+  - applicaiton processes communicate with processes running on other computers by reading and writing socket descriptors
+
+Standard I/O streams are full duplex in the sense that programs can perform input and output on the same stream
+  - however there are poorly documented restrictions on streams the interact badly with restrictions on sockets:
+      *	Restriction 1: Input functions following output functions: an input function cannot follow an output 
+	function without an intervening call to fflush, fseek, fsetpos, or rewind. The fflush function empties 
+	the buffer associated with a stream. The latter three functions use the Unix I/O lseek to rest the 
+	current file position
+      * Restriction 2: Output functions following input functoins: an output function cannot follow an input
+	function without an intervening call to fseek, fsetpos, or rewinds, unless the input function encounters an
+	end-of-file.
+  - these restrictions pose a problem for network applications because it is illegal to use lseek function on a
+    socket
+  - the first restriction on stream I/O can be worked around by adopting a discipline of flushing the buffer before
+    every input operation
+  - however the only way to work around the second restriction is to open two streams on the same open socket
+    descriptor, one for reading and one for writing
+  - but this approach has problems as well, because it requires the application to call fclose on both streams in order
+    to free the memory resources associated with each stream and avoid a memory leak
+  - each of the close operations attempts to close the same underlying socket descriptor, so the second clode operation
+    will fail
+  - this is not a problem for sequential programs, but closing an already clodes descriptor in a threaded program is
+    a recipe for disaster
+
+Thus we recommend that you not use the standard I/O functions for input and output on network sockets
+  - use the robust RIO functions instead
+  - if you need formatted output, use the sprintf function to format a string in memory, and the nseind it to the
+    socket using the rio_writen
+  - if you need formatted inptut, use rio_readlineb to read an entire text line, and then use sscanf to extract 
+    different fields from the text line
+
+Summary
+
+Unix provides a small number of system-level functions that allow applicaitons to open, close, read and write files,
+fetch file metadata; and perofrm I/O redirection
+  - unix read and write operations are subject to short counts that applications must antcipate and handle correctly
+  - instead of calling the Unix I/O functions directly, applications should use the RIO package, which deals with
+    short counts automatically by reapeatedly performing read and write operations until all of the requested data
+    have been tramnsfered
+
+The Unix kernel use three related data structures to represent open files
+  - entries in a  descriptor table point to entries in the open file table, which point to entries in the v-node
+    table
+  - each process has its own distinct descriptor table, while all processes share the same open file and v-node tables
+  - understanding the general organization of these structures clarifies our understanding of both file sharing and 
+    I/O redirection
+
+The standard I/O library is implemented on top of Unix I/O and provides a powerful set of higher-level I/O routines
+  - for most applications, standard I/O is the simpler, preferred alternative to Unix I/O
+  - however, because of some mutually incompatible restrictions on standard I/O and network files, Unix I/O, rather
+    than standard I/O, should be used for network applications

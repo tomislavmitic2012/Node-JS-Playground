@@ -1,0 +1,1818 @@
+Dec 25 09:28:04 TomislavSMitic rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="1432" x-info="http://www.rsyslog.com"] rsyslogd was HUPed, type 'lightweight'.
+Dec 25 09:28:04 TomislavSMitic rsyslogd: [origin software="rsyslogd" swVersion="4.6.4" x-pid="1432" x-info="http://www.rsyslog.com"] rsyslogd was HUPed, type 'lightweight'.
+Dec 25 09:28:04 TomislavSMitic anacron[27964]: Job `cron.daily' terminated
+Dec 25 09:28:04 TomislavSMitic anacron[27964]: Normal exit (1 job run)
+Dec 25 09:28:33 TomislavSMitic kernel: [266904.926928] usb 1-1.1: new high speed USB device using ehci_hcd and address 19
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.031873] usb 1-1.1: New USB device found, idVendor=0bb4, idProduct=0c02
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.031880] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.031885] usb 1-1.1: Product: Android Phone
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.031889] usb 1-1.1: Manufacturer: HTC
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.031892] usb 1-1.1: SerialNumber: HT972P400740
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.032060] usb 1-1.1: configuration #1 chosen from 1 choice
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.034439] scsi22 : SCSI emulation for USB Mass Storage devices
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.034747] usb-storage: device found at 19
+Dec 25 09:28:34 TomislavSMitic kernel: [266905.034751] usb-storage: waiting for device to settle before scanning
+Dec 25 09:28:39 TomislavSMitic kernel: [266910.034451] usb-storage: device scan complete
+Dec 25 09:29:00 TomislavSMitic kernel: [266931.171684] usb 1-1.1: reset high speed USB device using ehci_hcd and address 19
+Dec 25 09:29:00 TomislavSMitic kernel: [266931.282912] scsi 22:0:0:0: Direct-Access     HTC      Android Phone    0100 PQ: 0 ANSI: 2
+Dec 25 09:29:00 TomislavSMitic kernel: [266931.283907] sd 22:0:0:0: Attached scsi generic sg4 type 0
+Dec 25 09:29:00 TomislavSMitic kernel: [266931.296496] sd 22:0:0:0: [sdd] Attached SCSI removable disk
+Dec 25 09:29:07 TomislavSMitic kernel: [266937.974059] sd 22:0:0:0: [sdd] 7744512 512-byte logical blocks: (3.96 GB/3.69 GiB)
+Dec 25 09:29:07 TomislavSMitic kernel: [266937.976044] sd 22:0:0:0: [sdd] Assuming drive cache: write through
+Dec 25 09:29:07 TomislavSMitic kernel: [266937.982105] sd 22:0:0:0: [sdd] Assuming drive cache: write through
+Dec 25 09:29:07 TomislavSMitic kernel: [266937.982113]  sdd: sdd1
+Dec 25 09:29:08 TomislavSMitic kernel: [266939.662850] FAT: utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Dec 25 09:29:15 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 09:29:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 09:29:29 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 09:29:42 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 09:29:56 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Dec 25 09:30:16 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 09:30:16 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 09:36:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 09:36:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 09:37:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 09:37:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 09:37:27 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Dec 25 09:37:47 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 09:37:47 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 09:39:01 TomislavSMitic /USR/SBIN/CRON[29908]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 09:44:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 09:44:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 09:44:08 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 09:44:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 09:44:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 09:44:39 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 09:44:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 09:45:03 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 09:45:03 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 09:49:36 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 09:49:41 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 09:49:50 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 09:50:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 09:50:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 09:50:24 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 09:50:37 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 09:50:37 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 09:55:45 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 09:55:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 09:56:00 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 09:56:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 09:56:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 09:56:34 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 09:56:45 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 1
+Dec 25 09:56:46 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 09:56:46 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 10:03:15 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 10:03:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 10:03:34 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 10:03:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 10:03:56 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 10:04:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 10:04:16 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 10:04:16 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 10:06:55 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 10:07:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 10:07:09 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 10:07:18 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 10:07:31 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 10:07:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 10:07:56 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 10:07:56 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 10:09:01 TomislavSMitic /USR/SBIN/CRON[31046]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 10:14:06 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 10:14:09 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 10:14:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 10:14:31 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 10:14:42 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 10:14:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 10:15:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 2
+Dec 25 10:15:07 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 10:15:07 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 10:17:01 TomislavSMitic /USR/SBIN/CRON[31348]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 25 10:17:54 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 10:18:01 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 10:18:14 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 10:18:26 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Dec 25 10:18:42 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 10:18:55 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 10:18:55 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 10:19:43 TomislavSMitic anacron[31514]: Anacron 2.3 started on 2011-12-25
+Dec 25 10:19:43 TomislavSMitic anacron[31514]: Normal exit (0 jobs run)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.875832] CPU0 attaching NULL sched-domain.
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.875840] CPU1 attaching NULL sched-domain.
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.875845] CPU2 attaching NULL sched-domain.
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.875849] CPU3 attaching NULL sched-domain.
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900592] CPU0 attaching sched-domain:
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900600]  domain 0: span 0,2 level SIBLING
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900605]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900620]   domain 1: span 0-3 level MC
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900624]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900640] CPU1 attaching sched-domain:
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900643]  domain 0: span 1,3 level SIBLING
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900648]   groups: group ffff88000528fae0 cpus 1 (cpu_power = 589) group ffff88000538fae0 cpus 3 (cpu_power = 589)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900660]   domain 1: span 0-3 level MC
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900664]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900678] CPU2 attaching sched-domain:
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900682]  domain 0: span 0,2 level SIBLING
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900687]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900699]   domain 1: span 0-3 level MC
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900703]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900717] CPU3 attaching sched-domain:
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900721]  domain 0: span 1,3 level SIBLING
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900725]   groups: group ffff88000538fae0 cpus 3 (cpu_power = 589) group ffff88000528fae0 cpus 1 (cpu_power = 589)
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900737]   domain 1: span 0-3 level MC
+Dec 25 10:19:43 TomislavSMitic kernel: [269972.900741]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 10:19:43 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 10:19:43 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 10:19:43 TomislavSMitic dhclient: All rights reserved.
+Dec 25 10:19:43 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 10:19:43 TomislavSMitic dhclient: 
+Dec 25 10:19:43 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 10:19:43 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 10:19:43 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 10:19:43 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 10:19:43 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for 192.168.1.118 on wlan0.
+Dec 25 10:19:43 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 192.168.1.118.
+Dec 25 10:19:43 TomislavSMitic avahi-daemon[1698]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Dec 25 10:19:43 TomislavSMitic kernel: [269973.084921] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 10:19:44 TomislavSMitic avahi-daemon[1698]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Dec 25 10:19:44 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 10:19:44 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for fe80::226:c7ff:fe23:12f8 on wlan0.
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.234441] Registered led device: iwl-phy0::radio
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.234473] Registered led device: iwl-phy0::assoc
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.234502] Registered led device: iwl-phy0::RX
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.234530] Registered led device: iwl-phy0::TX
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.261356] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 10:19:44 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 10:19:44 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 10:19:44 TomislavSMitic dhclient: All rights reserved.
+Dec 25 10:19:44 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 10:19:44 TomislavSMitic dhclient: 
+Dec 25 10:19:44 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 10:19:44 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 10:19:44 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 10:19:44 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 10:19:44 TomislavSMitic avahi-autoipd(eth0)[28205]: Got SIGTERM, quitting.
+Dec 25 10:19:44 TomislavSMitic avahi-autoipd(eth0)[28205]: Callout STOP, address 169.254.8.11 on interface eth0
+Dec 25 10:19:44 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for 169.254.8.11 on eth0.
+Dec 25 10:19:44 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface eth0.IPv4 with address 169.254.8.11.
+Dec 25 10:19:44 TomislavSMitic avahi-daemon[1698]: Interface eth0.IPv4 no longer relevant for mDNS.
+Dec 25 10:19:44 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.487275] r8169 0000:09:00.0: eth0: link down
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.488239] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 10:19:44 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 10:19:44 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 10:19:44 TomislavSMitic dhclient: All rights reserved.
+Dec 25 10:19:44 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 10:19:44 TomislavSMitic dhclient: 
+Dec 25 10:19:44 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 10:19:44 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 10:19:44 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 10:19:44 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 10:19:44 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 10:19:44 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.561471] Registered led device: iwl-phy0::radio
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.561511] Registered led device: iwl-phy0::assoc
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.561550] Registered led device: iwl-phy0::RX
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.561591] Registered led device: iwl-phy0::TX
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.592952] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.743082] Registered led device: iwl-phy0::radio
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.743124] Registered led device: iwl-phy0::assoc
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.743163] Registered led device: iwl-phy0::RX
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.743211] Registered led device: iwl-phy0::TX
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.783426] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 10:19:44 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 10:19:44 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 10:19:44 TomislavSMitic dhclient: All rights reserved.
+Dec 25 10:19:44 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 10:19:44 TomislavSMitic dhclient: 
+Dec 25 10:19:44 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 10:19:44 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 10:19:44 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 10:19:44 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 10:19:44 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 10:19:44 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 10:19:44 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.911037] r8169 0000:09:00.0: eth0: link down
+Dec 25 10:19:44 TomislavSMitic kernel: [269973.912050] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 10:19:45 TomislavSMitic kernel: [269974.132260] PM: Syncing filesystems ... done.
+Dec 25 10:19:45 TomislavSMitic kernel: [269974.203915] PM: Preparing system for mem sleep
+Dec 25 13:14:38 TomislavSMitic kernel: [269974.795346] Freezing user space processes ... (elapsed 0.00 seconds) done.
+Dec 25 13:14:38 TomislavSMitic kernel: [269974.796263] Freezing remaining freezable tasks ... (elapsed 0.00 seconds) done.
+Dec 25 13:14:38 TomislavSMitic kernel: [269974.796312] PM: Entering mem sleep
+Dec 25 13:14:38 TomislavSMitic kernel: [269974.796330] Suspending console(s) (use no_console_suspend to debug)
+Dec 25 13:14:38 TomislavSMitic kernel: [269975.242952] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Dec 25 13:14:38 TomislavSMitic kernel: [269975.288597] sd 0:0:0:0: [sda] Stopping disk
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.471452] ACPI handle has no context!
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.486432] pci 0000:00:1f.3: PCI INT C disabled
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.566379] ehci_hcd 0000:00:1d.0: PCI INT A disabled
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.670474] HDA Intel 0000:00:1b.0: PCI INT A disabled
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.686314] ehci_hcd 0000:00:1a.0: PCI INT A disabled
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.734480] r8169 0000:09:00.0: PME# enabled
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.734639] r8169 0000:09:00.0: wake-up capability enabled by ACPI
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.802239] ACPI: Preparing to enter system sleep state S3
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.970347] Disabling non-boot CPUs ...
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.970374] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.970378] CPU1 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.970380] CPU2 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269976.970382] CPU3 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018097] CPU0 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018100]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018103]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018112]   domain 1: span 0,2-3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018114]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000538fbf0 cpus 3
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018122] CPU2 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018124]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018126]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018134]   domain 1: span 0,2-3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018136]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000538fbf0 cpus 3
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018143] CPU3 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018146]  domain 0: span 0,2-3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.018148]   groups: group ffff88000538fbf0 cpus 3 group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.020660] CPU 1 is now offline
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.021389] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.021394] CPU2 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.021396] CPU3 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.082073] CPU0 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.082077]  domain 0: span 0,3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.082079]   groups: group ffff88000520fbf0 cpus 0 group ffff88000538fbf0 cpus 3
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.082087] CPU3 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.082089]  domain 0: span 0,3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.082091]   groups: group ffff88000538fbf0 cpus 3 group ffff88000520fbf0 cpus 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.084395] CPU 2 is now offline
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.085147] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.085150] CPU3 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.146032] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.249979] CPU 3 is now offline
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.249981] SMP alternatives: switching to UP code
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.253927] Extended CMOS year: 2000
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.254250] Back to C!
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.254505] CPU0: Thermal monitoring handled by SMI
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.254564] Extended CMOS year: 2000
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.254600] Enabling non-boot CPUs ...
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.254774] SMP alternatives: switching to SMP code
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.258123] Booting processor 1 APIC 0x4 ip 0x6000
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.268286] Initializing CPU#1
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346570] CPU: Physical Processor ID: 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346572] CPU: Processor Core ID: 2
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346574] CPU: L1 I cache: 32K, L1 D cache: 32K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346576] CPU: L2 cache: 256K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346577] CPU: L3 cache: 3072K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346580] CPU 1/0x4 -> Node 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346591] CPU1: Thermal monitoring handled by SMI
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346607] CPU1: Intel(R) Core(TM) i3 CPU       M 330  @ 2.13GHz stepping 02
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.346615] checking TSC synchronization [CPU#0 -> CPU#1]: passed.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.366666] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.394566] CPU0 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.394569]  domain 0: span 0-1 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.394571]   groups: group ffff88000520fbf0 cpus 0 group ffff88000528fbf0 cpus 1
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.394576] CPU1 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.394578]  domain 0: span 0-1 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.394579]   groups: group ffff88000528fbf0 cpus 1 group ffff88000520fbf0 cpus 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.395112] CPU1 is up
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.395309] Booting processor 2 APIC 0x1 ip 0x6000
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.404481] Initializing CPU#2
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483009] CPU: Physical Processor ID: 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483011] CPU: Processor Core ID: 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483014] CPU: L1 I cache: 32K, L1 D cache: 32K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483017] CPU: L2 cache: 256K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483018] CPU: L3 cache: 3072K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483022] CPU 2/0x1 -> Node 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483034] CPU2: Thermal monitoring handled by SMI
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483128] CPU2: Intel(R) Core(TM) i3 CPU       M 330  @ 2.13GHz stepping 02
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.483135] checking TSC synchronization [CPU#1 -> CPU#2]: passed.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.503194] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.503197] CPU1 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.550998] CPU0 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551001]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551003]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551009]   domain 1: span 0-2 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551011]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551016] CPU1 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551017]  domain 0: span 0-2 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551019]   groups: group ffff88000528fbf0 cpus 1 group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551024] CPU2 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551025]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551027]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551032]   domain 1: span 0-2 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551033]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551678] CPU2 is up
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.551908] Booting processor 3 APIC 0x5 ip 0x6000
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.562065] Initializing CPU#3
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642439] CPU: Physical Processor ID: 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642441] CPU: Processor Core ID: 2
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642444] CPU: L1 I cache: 32K, L1 D cache: 32K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642446] CPU: L2 cache: 256K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642448] CPU: L3 cache: 3072K
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642451] CPU 3/0x5 -> Node 0
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642463] CPU3: Thermal monitoring handled by SMI
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642491] CPU3: Intel(R) Core(TM) i3 CPU       M 330  @ 2.13GHz stepping 02
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.642500] checking TSC synchronization [CPU#0 -> CPU#3]: passed.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.662566] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.662570] CPU1 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.662572] CPU2 attaching NULL sched-domain.
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714440] CPU0 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714444]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714446]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714455]   domain 1: span 0-3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714457]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714466] CPU1 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714468]  domain 0: span 1,3 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714470]   groups: group ffff88000528fae0 cpus 1 (cpu_power = 589) group ffff88000538fae0 cpus 3 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714477]   domain 1: span 0-3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714480]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714488] CPU2 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714490]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714493]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714500]   domain 1: span 0-3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714502]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714511] CPU3 attaching sched-domain:
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714513]  domain 0: span 1,3 level SIBLING
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714515]   groups: group ffff88000538fae0 cpus 3 (cpu_power = 589) group ffff88000528fae0 cpus 1 (cpu_power = 589)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714522]   domain 1: span 0-3 level MC
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.714525]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.715597] CPU3 is up
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.717337] ACPI: Waking up from system sleep state S3
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874558] i915 0000:00:02.0: restoring config space at offset 0xf (was 0x100, writing 0x10a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874566] i915 0000:00:02.0: restoring config space at offset 0x8 (was 0x1, writing 0x1801)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874571] i915 0000:00:02.0: restoring config space at offset 0x6 (was 0xc, writing 0xd000000c)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874576] i915 0000:00:02.0: restoring config space at offset 0x4 (was 0x4, writing 0xf0000004)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874581] i915 0000:00:02.0: restoring config space at offset 0x1 (was 0x900000, writing 0x900407)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874627] pci 0000:00:16.0: restoring config space at offset 0x1 (was 0x180002, writing 0x180006)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874658] ehci_hcd 0000:00:1a.0: restoring config space at offset 0xf (was 0x100, writing 0x10a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874680] ehci_hcd 0000:00:1a.0: restoring config space at offset 0x4 (was 0x0, writing 0xf0806000)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874689] ehci_hcd 0000:00:1a.0: restoring config space at offset 0x1 (was 0x2900000, writing 0x2900102)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874726] HDA Intel 0000:00:1b.0: restoring config space at offset 0xf (was 0x100, writing 0x10b)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874746] HDA Intel 0000:00:1b.0: restoring config space at offset 0x4 (was 0xdc000004, writing 0xf0800004)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874753] HDA Intel 0000:00:1b.0: restoring config space at offset 0x3 (was 0x0, writing 0x10)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874761] HDA Intel 0000:00:1b.0: restoring config space at offset 0x1 (was 0x100006, writing 0x100102)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874798] pcieport 0000:00:1c.0: restoring config space at offset 0xf (was 0x40100, writing 0x4010a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874812] pcieport 0000:00:1c.0: restoring config space at offset 0x9 (was 0x10001, writing 0xa031a021)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874819] pcieport 0000:00:1c.0: restoring config space at offset 0x8 (was 0x0, writing 0xa010a000)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874825] pcieport 0000:00:1c.0: restoring config space at offset 0x7 (was 0x20000000, writing 0x20004040)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874832] pcieport 0000:00:1c.0: restoring config space at offset 0x6 (was 0x10107, writing 0x20200)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874841] pcieport 0000:00:1c.0: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874849] pcieport 0000:00:1c.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874903] pcieport 0000:00:1c.1: restoring config space at offset 0xf (was 0x40200, writing 0x4020a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874917] pcieport 0000:00:1c.1: restoring config space at offset 0x9 (was 0x10001, writing 0xa051a041)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874923] pcieport 0000:00:1c.1: restoring config space at offset 0x8 (was 0x0, writing 0xf050f050)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874930] pcieport 0000:00:1c.1: restoring config space at offset 0x7 (was 0x0, writing 0x5050)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874941] pcieport 0000:00:1c.1: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.874949] pcieport 0000:00:1c.1: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875003] pcieport 0000:00:1c.2: restoring config space at offset 0xf (was 0x300, writing 0x4030a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875016] pcieport 0000:00:1c.2: restoring config space at offset 0x9 (was 0x10001, writing 0xa091a081)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875023] pcieport 0000:00:1c.2: restoring config space at offset 0x8 (was 0x0, writing 0xa070a060)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875029] pcieport 0000:00:1c.2: restoring config space at offset 0x7 (was 0x20000000, writing 0x20006060)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875036] pcieport 0000:00:1c.2: restoring config space at offset 0x6 (was 0x0, writing 0x40400)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875045] pcieport 0000:00:1c.2: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875053] pcieport 0000:00:1c.2: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875107] pcieport 0000:00:1c.3: restoring config space at offset 0xf (was 0x40400, writing 0x4040b)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875121] pcieport 0000:00:1c.3: restoring config space at offset 0x9 (was 0x10001, writing 0xf0b1f0a1)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875127] pcieport 0000:00:1c.3: restoring config space at offset 0x8 (was 0x0, writing 0xf040f040)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875134] pcieport 0000:00:1c.3: restoring config space at offset 0x7 (was 0x20000000, writing 0x20002020)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875144] pcieport 0000:00:1c.3: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875152] pcieport 0000:00:1c.3: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875205] pcieport 0000:00:1c.4: restoring config space at offset 0xf (was 0x100, writing 0x4010a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875219] pcieport 0000:00:1c.4: restoring config space at offset 0x9 (was 0x10001, writing 0xa0d1a0c1)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875226] pcieport 0000:00:1c.4: restoring config space at offset 0x8 (was 0xfff0, writing 0xa0b0a0a0)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875232] pcieport 0000:00:1c.4: restoring config space at offset 0x7 (was 0x20000000, writing 0x20007070)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875243] pcieport 0000:00:1c.4: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875251] pcieport 0000:00:1c.4: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875304] pcieport 0000:00:1c.5: restoring config space at offset 0xf (was 0x40200, writing 0x4020a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875317] pcieport 0000:00:1c.5: restoring config space at offset 0x9 (was 0x10001, writing 0xf091f091)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875324] pcieport 0000:00:1c.5: restoring config space at offset 0x8 (was 0x0, writing 0xa110a0e0)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875330] pcieport 0000:00:1c.5: restoring config space at offset 0x7 (was 0x20000000, writing 0x20003030)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875341] pcieport 0000:00:1c.5: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875349] pcieport 0000:00:1c.5: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875398] ehci_hcd 0000:00:1d.0: restoring config space at offset 0xf (was 0x100, writing 0x10b)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875419] ehci_hcd 0000:00:1d.0: restoring config space at offset 0x4 (was 0x0, writing 0xf0807000)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875428] ehci_hcd 0000:00:1d.0: restoring config space at offset 0x1 (was 0x2900000, writing 0x2900102)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875456] pci 0000:00:1e.0: restoring config space at offset 0xf (was 0x40000, writing 0x400ff)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875469] pci 0000:00:1e.0: restoring config space at offset 0x9 (was 0x10001, writing 0x1fff1)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875475] pci 0000:00:1e.0: restoring config space at offset 0x8 (was 0x0, writing 0xfff0)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875481] pci 0000:00:1e.0: restoring config space at offset 0x7 (was 0x22800000, writing 0x228000f0)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875495] pci 0000:00:1e.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100107)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875561] ahci 0000:00:1f.2: restoring config space at offset 0xf (was 0x200, writing 0x20b)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875585] ahci 0000:00:1f.2: restoring config space at offset 0x1 (was 0x2b00007, writing 0x2b00407)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875656] pci 0000:00:1f.6: restoring config space at offset 0xf (was 0x300, writing 0x30a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875726] iwlagn 0000:03:00.0: restoring config space at offset 0xf (was 0x100, writing 0x10a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875762] iwlagn 0000:03:00.0: restoring config space at offset 0x4 (was 0x4, writing 0xf0500004)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875771] iwlagn 0000:03:00.0: restoring config space at offset 0x3 (was 0x0, writing 0x10)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875783] iwlagn 0000:03:00.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100506)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875870] r8169 0000:09:00.0: restoring config space at offset 0xf (was 0x1ff, writing 0x10a)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875886] r8169 0000:09:00.0: restoring config space at offset 0x8 (was 0xc, writing 0xf090000c)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875894] r8169 0000:09:00.0: restoring config space at offset 0x6 (was 0xc, writing 0xf090400c)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875902] r8169 0000:09:00.0: restoring config space at offset 0x4 (was 0x1, writing 0x3001)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875909] r8169 0000:09:00.0: restoring config space at offset 0x3 (was 0x0, writing 0x10)
+Dec 25 13:14:38 TomislavSMitic kernel: [269977.875917] r8169 0000:09:00.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.144927] i915 0000:00:02.0: setting latency timer to 64
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.604986] ehci_hcd 0000:00:1a.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.604993] ehci_hcd 0000:00:1a.0: setting latency timer to 64
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.605005] HDA Intel 0000:00:1b.0: PCI INT A -> GSI 22 (level, low) -> IRQ 22
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.605012] HDA Intel 0000:00:1b.0: setting latency timer to 64
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.708270] ehci_hcd 0000:00:1d.0: PCI INT A -> GSI 23 (level, low) -> IRQ 23
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.708277] ehci_hcd 0000:00:1d.0: setting latency timer to 64
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.708294] pci 0000:00:1e.0: setting latency timer to 64
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.708308] ahci 0000:00:1f.2: setting latency timer to 64
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.708390] pci 0000:00:1f.3: PCI INT C -> GSI 18 (level, low) -> IRQ 18
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.708511] r8169 0000:09:00.0: wake-up capability disabled by ACPI
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.708519] r8169 0000:09:00.0: PME# disabled
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.730092] r8169 0000:09:00.0: eth0: link down
+Dec 25 13:14:38 TomislavSMitic kernel: [269978.773968] sd 0:0:0:0: [sda] Starting disk
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.026919] ata2: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.028917] ata2.00: _GTF unexpected object type 0x1
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.030993] ata2.00: _GTF unexpected object type 0x1
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.031014] ata2.00: configured for UDMA/66
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.033939] ata6: SATA link down (SStatus 0 SControl 300)
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.041915] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.043777] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.043781] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.046343] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.046347] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.046811] ata1.00: configured for UDMA/100
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.049918] ata5: SATA link down (SStatus 0 SControl 300)
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.469892] usb 1-1.2: reset high speed USB device using ehci_hcd and address 3
+Dec 25 13:14:38 TomislavSMitic kernel: [269979.873722] usb 2-1.2: reset low speed USB device using ehci_hcd and address 3
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.229528] usb 2-1.4: reset high speed USB device using ehci_hcd and address 4
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.364853] Registered led device: iwl-phy0::radio
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.364869] Registered led device: iwl-phy0::assoc
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.364883] Registered led device: iwl-phy0::RX
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.364897] Registered led device: iwl-phy0::TX
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.394278] PM: Finishing wakeup.
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.394281] Restarting tasks ... 
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.400065] usb 1-1.1: USB disconnect, address 19
+Dec 25 13:14:38 TomislavSMitic acpid: client 1541[0:0] has disconnected
+Dec 25 13:14:38 TomislavSMitic acpid: client connected from 1541[0:0]
+Dec 25 13:14:38 TomislavSMitic acpid: 1 client rule loaded
+Dec 25 13:14:38 TomislavSMitic kernel: [269980.406978] done.
+Dec 25 13:14:38 TomislavSMitic anacron[31756]: Anacron 2.3 started on 2011-12-25
+Dec 25 13:14:38 TomislavSMitic anacron[31756]: Normal exit (0 jobs run)
+Dec 25 13:14:40 TomislavSMitic anacron[31815]: Anacron 2.3 started on 2011-12-25
+Dec 25 13:14:40 TomislavSMitic anacron[31815]: Normal exit (0 jobs run)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.570933] CPU0 attaching NULL sched-domain.
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.570942] CPU1 attaching NULL sched-domain.
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.570946] CPU2 attaching NULL sched-domain.
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.570950] CPU3 attaching NULL sched-domain.
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604924] CPU0 attaching sched-domain:
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604929]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604932]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604942]   domain 1: span 0-3 level MC
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604945]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604955] CPU1 attaching sched-domain:
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604957]  domain 0: span 1,3 level SIBLING
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604960]   groups: group ffff88000528fae0 cpus 1 (cpu_power = 589) group ffff88000538fae0 cpus 3 (cpu_power = 589)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604968]   domain 1: span 0-3 level MC
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604970]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604979] CPU2 attaching sched-domain:
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604982]  domain 0: span 0,2 level SIBLING
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604985]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604992]   domain 1: span 0-3 level MC
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.604995]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.605004] CPU3 attaching sched-domain:
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.605006]  domain 0: span 1,3 level SIBLING
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.605009]   groups: group ffff88000538fae0 cpus 3 (cpu_power = 589) group ffff88000528fae0 cpus 1 (cpu_power = 589)
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.605017]   domain 1: span 0-3 level MC
+Dec 25 13:14:40 TomislavSMitic kernel: [269982.605019]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 13:14:41 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 13:14:41 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 13:14:41 TomislavSMitic dhclient: All rights reserved.
+Dec 25 13:14:41 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 13:14:41 TomislavSMitic dhclient: 
+Dec 25 13:14:41 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 13:14:41 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 13:14:41 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 13:14:41 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 13:14:41 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 13:14:41 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 13:14:41 TomislavSMitic kernel: [269983.816734] Registered led device: iwl-phy0::radio
+Dec 25 13:14:41 TomislavSMitic kernel: [269983.816779] Registered led device: iwl-phy0::assoc
+Dec 25 13:14:41 TomislavSMitic kernel: [269983.816818] Registered led device: iwl-phy0::RX
+Dec 25 13:14:41 TomislavSMitic kernel: [269983.816865] Registered led device: iwl-phy0::TX
+Dec 25 13:14:41 TomislavSMitic kernel: [269983.849467] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 13:14:41 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 13:14:41 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 13:14:41 TomislavSMitic dhclient: All rights reserved.
+Dec 25 13:14:41 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 13:14:41 TomislavSMitic dhclient: 
+Dec 25 13:14:41 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 13:14:41 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 13:14:41 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 13:14:41 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 13:14:41 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 13:14:41 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 13:14:41 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 13:14:41 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 13:14:41 TomislavSMitic dhclient: send_packet: Network is down
+Dec 25 13:14:41 TomislavSMitic kernel: [269984.047604] r8169 0000:09:00.0: eth0: link down
+Dec 25 13:14:41 TomislavSMitic kernel: [269984.048571] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 13:14:41 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 13:14:41 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 13:14:41 TomislavSMitic dhclient: All rights reserved.
+Dec 25 13:14:41 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 13:14:41 TomislavSMitic dhclient: 
+Dec 25 13:14:41 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 13:14:41 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 13:14:41 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 13:14:41 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 13:14:41 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 13:14:41 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 13:14:42 TomislavSMitic kernel: [269984.249865] Registered led device: iwl-phy0::radio
+Dec 25 13:14:42 TomislavSMitic kernel: [269984.249893] Registered led device: iwl-phy0::assoc
+Dec 25 13:14:42 TomislavSMitic kernel: [269984.249919] Registered led device: iwl-phy0::RX
+Dec 25 13:14:42 TomislavSMitic kernel: [269984.249943] Registered led device: iwl-phy0::TX
+Dec 25 13:14:42 TomislavSMitic kernel: [269984.277859] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.392191] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.395497] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.395571] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.397124] wlan0: direct probe responded
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.397131] wlan0: authenticate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.399674] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.399737] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.402803] wlan0: direct probe responded
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.402813] wlan0: authenticate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.404360] wlan0: authenticated
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.404404] wlan0: associate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.422030] wlan0: RX AssocResp from 68:7f:74:23:b7:95 (capab=0x411 status=0 aid=1)
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.422034] wlan0: associated
+Dec 25 13:14:44 TomislavSMitic kernel: [269986.426590] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Dec 25 13:14:46 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 13:14:46 TomislavSMitic avahi-daemon[1698]: New relevant interface wlan0.IPv6 for mDNS.
+Dec 25 13:14:46 TomislavSMitic avahi-daemon[1698]: Registering new address record for fe80::226:c7ff:fe23:12f8 on wlan0.*.
+Dec 25 13:14:47 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.460632] usb 1-1.1: new high speed USB device using ehci_hcd and address 20
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.565552] usb 1-1.1: New USB device found, idVendor=0bb4, idProduct=0c02
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.565557] usb 1-1.1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.565560] usb 1-1.1: Product: Android Phone
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.565563] usb 1-1.1: Manufacturer: HTC
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.565565] usb 1-1.1: SerialNumber: HT972P400740
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.565695] usb 1-1.1: configuration #1 chosen from 1 choice
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.567837] scsi23 : SCSI emulation for USB Mass Storage devices
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.568014] usb-storage: device found at 20
+Dec 25 13:14:49 TomislavSMitic kernel: [269991.568018] usb-storage: waiting for device to settle before scanning
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.458251] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.459286] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.564984] usb-storage: device scan complete
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.658145] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 2)
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.662809] wlan0: direct probe responded
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.662813] wlan0: authenticate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.667908] wlan0: authenticated
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.667948] wlan0: associate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.676521] wlan0: RX AssocResp from 68:7f:74:23:b7:95 (capab=0x411 status=0 aid=1)
+Dec 25 13:14:54 TomislavSMitic kernel: [269996.676527] wlan0: associated
+Dec 25 13:14:55 TomislavSMitic kernel: [269997.245862] wlan0: no IPv6 routers present
+Dec 25 13:14:55 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 13:14:55 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 13:14:55 TomislavSMitic dhclient: All rights reserved.
+Dec 25 13:14:55 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 13:14:55 TomislavSMitic dhclient: 
+Dec 25 13:14:55 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 13:14:55 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 13:14:55 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 13:14:59 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 8
+Dec 25 13:14:59 TomislavSMitic dhclient: DHCPOFFER from 192.168.1.1
+Dec 25 13:14:59 TomislavSMitic dhclient: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Dec 25 13:14:59 TomislavSMitic dhclient: DHCPACK from 192.168.1.1
+Dec 25 13:14:59 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface wlan0.IPv4 with address 192.168.1.118.
+Dec 25 13:14:59 TomislavSMitic avahi-daemon[1698]: New relevant interface wlan0.IPv4 for mDNS.
+Dec 25 13:14:59 TomislavSMitic avahi-daemon[1698]: Registering new address record for 192.168.1.118 on wlan0.IPv4.
+Dec 25 13:14:59 TomislavSMitic dhclient: bound to 192.168.1.118 -- renewal in 37098 seconds.
+Dec 25 13:15:00 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 13:15:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 13:15:15 TomislavSMitic kernel: [270017.825084] usb 1-1.1: reset high speed USB device using ehci_hcd and address 20
+Dec 25 13:15:15 TomislavSMitic kernel: [270017.934990] scsi 23:0:0:0: Direct-Access     HTC      Android Phone    0100 PQ: 0 ANSI: 2
+Dec 25 13:15:15 TomislavSMitic kernel: [270017.935823] sd 23:0:0:0: Attached scsi generic sg4 type 0
+Dec 25 13:15:15 TomislavSMitic kernel: [270017.947092] sd 23:0:0:0: [sdd] Attached SCSI removable disk
+Dec 25 13:15:24 TomislavSMitic kernel: [270026.209166] sd 23:0:0:0: [sdd] 7744512 512-byte logical blocks: (3.96 GB/3.69 GiB)
+Dec 25 13:15:24 TomislavSMitic kernel: [270026.212215] sd 23:0:0:0: [sdd] Assuming drive cache: write through
+Dec 25 13:15:24 TomislavSMitic kernel: [270026.223372] sd 23:0:0:0: [sdd] Assuming drive cache: write through
+Dec 25 13:15:24 TomislavSMitic kernel: [270026.223377]  sdd: sdd1
+Dec 25 13:15:26 TomislavSMitic kernel: [270028.439487] FAT: utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Dec 25 13:15:27 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 13:15:42 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:15:42 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 13:15:42 TomislavSMitic avahi-autoipd(eth0)[31979]: Found user 'avahi-autoipd' (UID 104) and group 'avahi-autoipd' (GID 107).
+Dec 25 13:15:42 TomislavSMitic avahi-autoipd(eth0)[31979]: Successfully called chroot().
+Dec 25 13:15:42 TomislavSMitic avahi-autoipd(eth0)[31979]: Successfully dropped root privileges.
+Dec 25 13:15:42 TomislavSMitic avahi-autoipd(eth0)[31979]: Starting with address 169.254.8.11
+Dec 25 13:15:46 TomislavSMitic avahi-autoipd(eth0)[31979]: Callout BIND, address 169.254.8.11 on interface eth0
+Dec 25 13:15:46 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface eth0.IPv4 with address 169.254.8.11.
+Dec 25 13:15:46 TomislavSMitic avahi-daemon[1698]: New relevant interface eth0.IPv4 for mDNS.
+Dec 25 13:15:46 TomislavSMitic avahi-daemon[1698]: Registering new address record for 169.254.8.11 on eth0.IPv4.
+Dec 25 13:15:50 TomislavSMitic avahi-autoipd(eth0)[31979]: Successfully claimed IP address 169.254.8.11
+Dec 25 13:17:01 TomislavSMitic /USR/SBIN/CRON[32045]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 25 13:20:07 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 13:20:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 13:20:19 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 13:20:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 13:20:49 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 13:21:08 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:21:08 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 13:28:36 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 13:28:43 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 13:28:50 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Dec 25 13:29:06 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 13:29:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Dec 25 13:29:37 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:29:37 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 13:32:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 13:33:01 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 13:33:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Dec 25 13:33:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 13:33:49 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 13:33:54 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:33:54 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 13:37:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 13:37:08 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 13:37:17 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 13:37:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 13:37:56 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 13:38:03 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:38:03 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 13:39:01 TomislavSMitic /USR/SBIN/CRON[6369]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 13:40:58 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 13:41:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 13:41:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 13:41:24 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 13:41:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 13:41:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 2
+Dec 25 13:41:59 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:41:59 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 13:47:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 13:47:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 13:47:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 13:47:37 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 13:47:52 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 13:48:06 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:48:06 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 13:54:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 13:54:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 13:54:55 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 13:55:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 13:55:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 13:55:33 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 13:55:39 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 13:55:39 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:01:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 14:01:43 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 14:01:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 14:02:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 14:02:11 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 14:02:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 14:02:39 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:02:39 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:08:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 14:08:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 14:08:43 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 14:08:54 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 14:09:01 TomislavSMitic /USR/SBIN/CRON[21125]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 14:09:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 14:09:14 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 14:09:23 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:09:23 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:12:32 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 14:12:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 14:12:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 14:13:07 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 14:13:18 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 14:13:33 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:13:33 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:17:01 TomislavSMitic /USR/SBIN/CRON[29823]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 25 14:20:31 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 14:20:37 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 14:20:55 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Dec 25 14:21:15 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 14:21:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 2
+Dec 25 14:21:32 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:21:32 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:28:59 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 14:29:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 14:29:20 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 14:29:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 14:29:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 14:30:00 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:30:00 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:35:04 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 14:35:08 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 14:35:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 14:35:24 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 14:35:42 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 14:35:55 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 14:36:05 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:36:05 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:39:01 TomislavSMitic /USR/SBIN/CRON[9362]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 14:40:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 14:40:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 14:40:43 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 14:40:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Dec 25 14:41:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 14:41:26 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:41:26 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:48:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 14:48:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 14:48:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 14:48:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 14:48:49 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 14:49:10 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 14:49:14 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:49:14 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 14:54:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 14:55:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 14:55:18 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 14:55:26 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 14:55:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 14:55:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 14:55:58 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 14:55:58 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:03:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 15:03:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 15:03:45 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 15:03:58 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 15:04:10 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 15:04:23 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:04:23 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:09:01 TomislavSMitic /USR/SBIN/CRON[10726]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 15:11:29 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 15:11:32 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 15:11:36 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 15:11:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 15:11:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 15:12:08 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 15:12:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 15:12:30 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:12:30 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:17:01 TomislavSMitic /USR/SBIN/CRON[11041]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 25 15:18:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 15:18:32 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 15:18:37 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 15:18:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 15:18:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 15:19:18 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 15:19:29 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:19:29 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:24:15 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 15:24:18 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 15:24:26 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 15:24:34 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 15:24:41 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 15:24:56 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Dec 25 15:25:16 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:25:16 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:28:45 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 15:28:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 15:28:52 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 15:29:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 15:29:17 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 15:29:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 15:29:46 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:29:46 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:32:37 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 15:32:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 15:33:03 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 15:33:24 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 15:33:33 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 15:33:38 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:33:38 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:39:01 TomislavSMitic /USR/SBIN/CRON[11882]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 15:40:04 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 15:40:11 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 15:40:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 15:40:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 15:40:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 15:41:05 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:41:05 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:45:36 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 15:45:41 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 15:45:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 15:45:59 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 15:46:18 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 15:46:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 2
+Dec 25 15:46:37 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:46:37 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:49:08 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 15:49:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 15:49:29 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 15:49:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 15:49:47 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 15:50:00 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 15:50:09 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:50:09 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:53:52 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 15:53:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 15:54:11 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 15:54:26 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 15:54:45 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 15:54:53 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 15:54:53 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 15:59:37 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 15:59:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 16:00:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 16:00:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 16:00:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 16:00:33 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 16:00:38 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:00:38 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:07:04 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 16:07:09 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 16:07:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 16:07:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 16:07:45 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 16:08:00 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 16:08:05 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:08:05 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:09:01 TomislavSMitic /USR/SBIN/CRON[13136]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 16:13:14 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 16:13:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 16:13:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 16:13:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 16:13:58 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 16:14:06 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 16:14:15 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:14:15 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:17:01 TomislavSMitic /USR/SBIN/CRON[13582]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 25 16:20:09 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 16:20:17 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 16:20:32 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 16:20:47 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 16:21:06 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 16:21:10 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:21:10 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:28:10 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 16:28:14 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 16:28:23 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 16:28:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 16:29:05 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 16:29:11 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:29:11 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:32:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 16:32:41 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 16:32:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 16:33:03 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 16:33:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 16:33:39 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:33:39 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:38:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 16:38:56 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 16:38:59 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 16:39:01 TomislavSMitic /USR/SBIN/CRON[14438]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 16:39:04 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 16:39:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 16:39:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 16:39:41 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 16:39:54 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:39:54 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:45:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 16:45:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 16:45:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 16:45:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 16:46:14 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 16:46:22 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:46:22 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:50:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 16:50:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 16:50:42 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 16:51:00 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 16:51:14 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 16:51:31 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:51:31 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:55:21 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 16:55:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 16:55:41 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 16:55:51 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 16:56:00 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 16:56:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 16:56:22 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 16:56:22 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 16:59:52 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 16:59:58 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 17:00:07 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:00:20 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 17:00:34 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:00:47 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 17:00:53 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:00:53 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:08:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 17:08:26 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 17:08:36 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:08:49 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 17:09:01 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 17:09:01 TomislavSMitic /USR/SBIN/CRON[15708]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 17:09:10 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:09:23 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:09:23 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:15:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 17:15:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 17:16:06 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 17:16:17 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 17:16:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 17:16:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Dec 25 17:16:51 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 17:16:54 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:16:54 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:17:01 TomislavSMitic /USR/SBIN/CRON[16033]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 25 17:20:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 17:20:29 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 17:20:40 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 17:20:54 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 17:21:15 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 17:21:26 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:21:26 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:25:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 17:25:54 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:26:07 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 17:26:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 17:26:37 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 17:26:47 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:26:47 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:29:36 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 17:29:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 17:30:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 17:30:11 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 17:30:30 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 17:30:37 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:30:37 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:36:43 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 17:36:49 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 17:36:58 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 17:37:19 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 17:37:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Dec 25 17:37:44 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:37:44 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:39:01 TomislavSMitic /USR/SBIN/CRON[19005]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 17:42:13 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 17:42:17 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 17:42:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Dec 25 17:42:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:42:57 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 17:43:07 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 17:43:14 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:43:14 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:46:47 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 17:46:55 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 17:47:06 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 17:47:24 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 17:47:38 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 17:47:48 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:47:48 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:52:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 17:52:59 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:53:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 17:53:27 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 17:53:42 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 17:53:54 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:53:54 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 17:57:51 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 17:57:58 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 17:58:07 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 17:58:20 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 17:58:32 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 17:58:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 17:58:52 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 17:58:52 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:03:38 TomislavSMitic kernel: [287313.079407] iwlagn 0000:03:00.0: Microcode SW error detected.  Restarting 0x2000000.
+Dec 25 18:03:38 TomislavSMitic kernel: [287313.130159] Registered led device: iwl-phy0::radio
+Dec 25 18:03:38 TomislavSMitic kernel: [287313.130193] Registered led device: iwl-phy0::assoc
+Dec 25 18:03:38 TomislavSMitic kernel: [287313.130222] Registered led device: iwl-phy0::RX
+Dec 25 18:03:38 TomislavSMitic kernel: [287313.130256] Registered led device: iwl-phy0::TX
+Dec 25 18:03:49 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 18:03:54 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 18:04:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 18:04:11 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 18:04:20 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 18:04:31 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 18:04:40 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 18:04:50 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:04:50 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:09:01 TomislavSMitic /USR/SBIN/CRON[20277]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 18:09:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 18:09:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 18:09:20 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 18:09:24 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 18:09:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 18:09:50 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 18:10:08 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 18:10:13 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:10:13 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:16:17 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 18:16:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 18:16:40 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 18:16:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 18:17:01 TomislavSMitic /USR/SBIN/CRON[20585]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 25 18:17:06 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 18:17:18 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:17:18 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:23:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 18:23:25 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 18:23:29 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 18:23:34 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 18:23:46 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:23:53 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 18:24:03 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 18:24:14 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 18:24:23 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:24:23 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:30:15 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:30:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 18:30:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 18:30:45 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 18:30:56 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 18:31:09 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:31:16 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:31:16 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:34:39 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 18:34:43 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:34:50 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 18:35:04 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Dec 25 18:35:18 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 18:35:33 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:35:40 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:35:40 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:39:01 TomislavSMitic /USR/SBIN/CRON[21405]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 18:41:12 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 18:41:20 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Dec 25 18:41:28 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 18:41:39 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 18:41:52 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Dec 25 18:42:10 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Dec 25 18:42:13 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:42:13 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:46:01 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:46:08 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Dec 25 18:46:24 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Dec 25 18:46:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 18:46:55 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:47:02 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:47:02 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:54:23 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Dec 25 18:54:27 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 18:54:32 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Dec 25 18:54:37 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:54:44 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 18:54:51 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 18:55:02 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Dec 25 18:55:23 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 1
+Dec 25 18:55:24 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 18:55:24 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 18:56:45 TomislavSMitic anacron[22132]: Anacron 2.3 started on 2011-12-25
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.060068] CPU0 attaching NULL sched-domain.
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.060077] CPU1 attaching NULL sched-domain.
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.060081] CPU2 attaching NULL sched-domain.
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.060085] CPU3 attaching NULL sched-domain.
+Dec 25 18:56:45 TomislavSMitic anacron[22132]: Normal exit (0 jobs run)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086862] CPU0 attaching sched-domain:
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086870]  domain 0: span 0,2 level SIBLING
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086875]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086889]   domain 1: span 0-3 level MC
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086893]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086909] CPU1 attaching sched-domain:
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086913]  domain 0: span 1,3 level SIBLING
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086917]   groups: group ffff88000528fae0 cpus 1 (cpu_power = 589) group ffff88000538fae0 cpus 3 (cpu_power = 589)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086930]   domain 1: span 0-3 level MC
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086934]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086948] CPU2 attaching sched-domain:
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086951]  domain 0: span 0,2 level SIBLING
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086956]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086968]   domain 1: span 0-3 level MC
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086972]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086986] CPU3 attaching sched-domain:
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086989]  domain 0: span 1,3 level SIBLING
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.086994]   groups: group ffff88000538fae0 cpus 3 (cpu_power = 589) group ffff88000528fae0 cpus 1 (cpu_power = 589)
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.087006]   domain 1: span 0-3 level MC
+Dec 25 18:56:45 TomislavSMitic kernel: [290499.087010]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 18:56:46 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 18:56:46 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 18:56:46 TomislavSMitic dhclient: All rights reserved.
+Dec 25 18:56:46 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 18:56:46 TomislavSMitic dhclient: 
+Dec 25 18:56:46 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 18:56:46 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for 192.168.1.118 on wlan0.
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 192.168.1.118.
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.379164] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for fe80::226:c7ff:fe23:12f8 on wlan0.
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.516266] Registered led device: iwl-phy0::radio
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.516299] Registered led device: iwl-phy0::assoc
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.516329] Registered led device: iwl-phy0::RX
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.516356] Registered led device: iwl-phy0::TX
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.531503] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 18:56:46 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 18:56:46 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 18:56:46 TomislavSMitic dhclient: All rights reserved.
+Dec 25 18:56:46 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 18:56:46 TomislavSMitic dhclient: 
+Dec 25 18:56:46 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 18:56:46 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 18:56:46 TomislavSMitic avahi-autoipd(eth0)[31979]: Got SIGTERM, quitting.
+Dec 25 18:56:46 TomislavSMitic avahi-autoipd(eth0)[31979]: Callout STOP, address 169.254.8.11 on interface eth0
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for 169.254.8.11 on eth0.
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface eth0.IPv4 with address 169.254.8.11.
+Dec 25 18:56:46 TomislavSMitic avahi-daemon[1698]: Interface eth0.IPv4 no longer relevant for mDNS.
+Dec 25 18:56:46 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.845426] r8169 0000:09:00.0: eth0: link down
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.846387] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 18:56:46 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 18:56:46 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 18:56:46 TomislavSMitic dhclient: All rights reserved.
+Dec 25 18:56:46 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 18:56:46 TomislavSMitic dhclient: 
+Dec 25 18:56:46 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 18:56:46 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 18:56:46 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 18:56:46 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.915488] Registered led device: iwl-phy0::radio
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.915532] Registered led device: iwl-phy0::assoc
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.915571] Registered led device: iwl-phy0::RX
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.915621] Registered led device: iwl-phy0::TX
+Dec 25 18:56:46 TomislavSMitic kernel: [290499.943497] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 18:56:46 TomislavSMitic kernel: [290500.103299] Registered led device: iwl-phy0::radio
+Dec 25 18:56:46 TomislavSMitic kernel: [290500.103333] Registered led device: iwl-phy0::assoc
+Dec 25 18:56:46 TomislavSMitic kernel: [290500.103366] Registered led device: iwl-phy0::RX
+Dec 25 18:56:46 TomislavSMitic kernel: [290500.103394] Registered led device: iwl-phy0::TX
+Dec 25 18:56:46 TomislavSMitic kernel: [290500.135323] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 18:56:46 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 18:56:46 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 18:56:46 TomislavSMitic dhclient: All rights reserved.
+Dec 25 18:56:46 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 18:56:46 TomislavSMitic dhclient: 
+Dec 25 18:56:46 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 18:56:46 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 18:56:46 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 18:56:46 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 18:56:46 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 18:56:47 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 18:56:47 TomislavSMitic kernel: [290500.252615] r8169 0000:09:00.0: eth0: link down
+Dec 25 18:56:47 TomislavSMitic kernel: [290500.253569] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 18:56:47 TomislavSMitic kernel: [290500.490332] PM: Syncing filesystems ... done.
+Dec 25 18:56:47 TomislavSMitic kernel: [290500.562106] PM: Preparing system for mem sleep
+Dec 25 19:05:09 TomislavSMitic kernel: [290501.189509] Freezing user space processes ... (elapsed 0.00 seconds) done.
+Dec 25 19:05:09 TomislavSMitic kernel: [290501.190470] Freezing remaining freezable tasks ... (elapsed 0.00 seconds) done.
+Dec 25 19:05:09 TomislavSMitic kernel: [290501.190517] PM: Entering mem sleep
+Dec 25 19:05:09 TomislavSMitic kernel: [290501.190534] Suspending console(s) (use no_console_suspend to debug)
+Dec 25 19:05:09 TomislavSMitic kernel: [290501.637125] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+Dec 25 19:05:09 TomislavSMitic kernel: [290501.687732] sd 0:0:0:0: [sda] Stopping disk
+Dec 25 19:05:09 TomislavSMitic kernel: [290502.861560] ACPI handle has no context!
+Dec 25 19:05:09 TomislavSMitic kernel: [290502.876600] pci 0000:00:1f.3: PCI INT C disabled
+Dec 25 19:05:09 TomislavSMitic kernel: [290502.956541] ehci_hcd 0000:00:1d.0: PCI INT A disabled
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.060639] HDA Intel 0000:00:1b.0: PCI INT A disabled
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.076478] ehci_hcd 0000:00:1a.0: PCI INT A disabled
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.104638] r8169 0000:09:00.0: PME# enabled
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.104792] r8169 0000:09:00.0: wake-up capability enabled by ACPI
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.172404] ACPI: Preparing to enter system sleep state S3
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.332520] Disabling non-boot CPUs ...
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.332550] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.332553] CPU1 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.332555] CPU2 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.332558] CPU3 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380272] CPU0 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380276]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380278]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380287]   domain 1: span 0,2-3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380289]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000538fbf0 cpus 3
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380297] CPU2 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380299]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380302]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380309]   domain 1: span 0,2-3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380311]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000538fbf0 cpus 3
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380318] CPU3 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380321]  domain 0: span 0,2-3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.380323]   groups: group ffff88000538fbf0 cpus 3 group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.382830] CPU 1 is now offline
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.383544] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.383548] CPU2 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.383551] CPU3 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.444248] CPU0 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.444251]  domain 0: span 0,3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.444254]   groups: group ffff88000520fbf0 cpus 0 group ffff88000538fbf0 cpus 3
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.444261] CPU3 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.444263]  domain 0: span 0,3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.444266]   groups: group ffff88000538fbf0 cpus 3 group ffff88000520fbf0 cpus 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.446568] CPU 2 is now offline
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.447325] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.447328] CPU3 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.508206] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.612152] CPU 3 is now offline
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.612155] SMP alternatives: switching to UP code
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.616109] Extended CMOS year: 2000
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.616433] Back to C!
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.616689] CPU0: Thermal monitoring handled by SMI
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.616748] Extended CMOS year: 2000
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.616802] Enabling non-boot CPUs ...
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.616955] SMP alternatives: switching to SMP code
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.620308] Booting processor 1 APIC 0x4 ip 0x6000
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.630373] Initializing CPU#1
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708742] CPU: Physical Processor ID: 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708743] CPU: Processor Core ID: 2
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708746] CPU: L1 I cache: 32K, L1 D cache: 32K
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708747] CPU: L2 cache: 256K
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708749] CPU: L3 cache: 3072K
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708751] CPU 1/0x4 -> Node 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708762] CPU1: Thermal monitoring handled by SMI
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708792] CPU1: Intel(R) Core(TM) i3 CPU       M 330  @ 2.13GHz stepping 02
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.708800] checking TSC synchronization [CPU#0 -> CPU#1]: passed.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.728856] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.756739] CPU0 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.756742]  domain 0: span 0-1 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.756744]   groups: group ffff88000520fbf0 cpus 0 group ffff88000528fbf0 cpus 1
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.756750] CPU1 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.756751]  domain 0: span 0-1 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.756753]   groups: group ffff88000528fbf0 cpus 1 group ffff88000520fbf0 cpus 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.757274] CPU1 is up
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.757470] Booting processor 2 APIC 0x1 ip 0x6000
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.767123] Initializing CPU#2
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845182] CPU: Physical Processor ID: 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845184] CPU: Processor Core ID: 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845187] CPU: L1 I cache: 32K, L1 D cache: 32K
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845190] CPU: L2 cache: 256K
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845191] CPU: L3 cache: 3072K
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845195] CPU 2/0x1 -> Node 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845207] CPU2: Thermal monitoring handled by SMI
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845272] CPU2: Intel(R) Core(TM) i3 CPU       M 330  @ 2.13GHz stepping 02
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.845279] checking TSC synchronization [CPU#1 -> CPU#2]: passed.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.865337] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.865340] CPU1 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913171] CPU0 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913174]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913176]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913182]   domain 1: span 0-2 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913184]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913189] CPU1 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913191]  domain 0: span 0-2 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913192]   groups: group ffff88000528fbf0 cpus 1 group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913197] CPU2 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913199]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913200]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913205]   domain 1: span 0-2 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913207]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.913854] CPU2 is up
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.914089] Booting processor 3 APIC 0x5 ip 0x6000
+Dec 25 19:05:09 TomislavSMitic kernel: [290503.924248] Initializing CPU#3
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004611] CPU: Physical Processor ID: 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004613] CPU: Processor Core ID: 2
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004616] CPU: L1 I cache: 32K, L1 D cache: 32K
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004619] CPU: L2 cache: 256K
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004620] CPU: L3 cache: 3072K
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004623] CPU 3/0x5 -> Node 0
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004636] CPU3: Thermal monitoring handled by SMI
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004672] CPU3: Intel(R) Core(TM) i3 CPU       M 330  @ 2.13GHz stepping 02
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.004680] checking TSC synchronization [CPU#0 -> CPU#3]: passed.
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.024747] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.024750] CPU1 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.024752] CPU2 attaching NULL sched-domain.
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076611] CPU0 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076615]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076618]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076626]   domain 1: span 0-3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076628]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076637] CPU1 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076639]  domain 0: span 1,3 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076641]   groups: group ffff88000528fae0 cpus 1 (cpu_power = 589) group ffff88000538fae0 cpus 3 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076649]   domain 1: span 0-3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076651]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076659] CPU2 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076661]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076664]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076671]   domain 1: span 0-3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076673]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076681] CPU3 attaching sched-domain:
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076683]  domain 0: span 1,3 level SIBLING
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076686]   groups: group ffff88000538fae0 cpus 3 (cpu_power = 589) group ffff88000528fae0 cpus 1 (cpu_power = 589)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076693]   domain 1: span 0-3 level MC
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.076695]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.077766] CPU3 is up
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.079502] ACPI: Waking up from system sleep state S3
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228734] i915 0000:00:02.0: restoring config space at offset 0xf (was 0x100, writing 0x10a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228741] i915 0000:00:02.0: restoring config space at offset 0x8 (was 0x1, writing 0x1801)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228746] i915 0000:00:02.0: restoring config space at offset 0x6 (was 0xc, writing 0xd000000c)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228751] i915 0000:00:02.0: restoring config space at offset 0x4 (was 0x4, writing 0xf0000004)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228756] i915 0000:00:02.0: restoring config space at offset 0x1 (was 0x900000, writing 0x900407)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228803] pci 0000:00:16.0: restoring config space at offset 0x1 (was 0x180002, writing 0x180006)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228834] ehci_hcd 0000:00:1a.0: restoring config space at offset 0xf (was 0x100, writing 0x10a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228855] ehci_hcd 0000:00:1a.0: restoring config space at offset 0x4 (was 0x0, writing 0xf0806000)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228864] ehci_hcd 0000:00:1a.0: restoring config space at offset 0x1 (was 0x2900000, writing 0x2900102)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228902] HDA Intel 0000:00:1b.0: restoring config space at offset 0xf (was 0x100, writing 0x10b)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228922] HDA Intel 0000:00:1b.0: restoring config space at offset 0x4 (was 0xdc000004, writing 0xf0800004)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228929] HDA Intel 0000:00:1b.0: restoring config space at offset 0x3 (was 0x0, writing 0x10)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228937] HDA Intel 0000:00:1b.0: restoring config space at offset 0x1 (was 0x100006, writing 0x100102)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228975] pcieport 0000:00:1c.0: restoring config space at offset 0xf (was 0x40100, writing 0x4010a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228989] pcieport 0000:00:1c.0: restoring config space at offset 0x9 (was 0x10001, writing 0xa031a021)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.228995] pcieport 0000:00:1c.0: restoring config space at offset 0x8 (was 0x0, writing 0xa010a000)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229001] pcieport 0000:00:1c.0: restoring config space at offset 0x7 (was 0x20000000, writing 0x4040)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229008] pcieport 0000:00:1c.0: restoring config space at offset 0x6 (was 0x10107, writing 0x20200)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229018] pcieport 0000:00:1c.0: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229026] pcieport 0000:00:1c.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229079] pcieport 0000:00:1c.1: restoring config space at offset 0xf (was 0x40200, writing 0x4020a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229092] pcieport 0000:00:1c.1: restoring config space at offset 0x9 (was 0x10001, writing 0xa051a041)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229099] pcieport 0000:00:1c.1: restoring config space at offset 0x8 (was 0x0, writing 0xf050f050)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229105] pcieport 0000:00:1c.1: restoring config space at offset 0x7 (was 0x0, writing 0x5050)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229116] pcieport 0000:00:1c.1: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229124] pcieport 0000:00:1c.1: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229178] pcieport 0000:00:1c.2: restoring config space at offset 0xf (was 0x300, writing 0x4030a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229191] pcieport 0000:00:1c.2: restoring config space at offset 0x9 (was 0x10001, writing 0xa091a081)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229198] pcieport 0000:00:1c.2: restoring config space at offset 0x8 (was 0x0, writing 0xa070a060)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229204] pcieport 0000:00:1c.2: restoring config space at offset 0x7 (was 0x20000000, writing 0x6060)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229211] pcieport 0000:00:1c.2: restoring config space at offset 0x6 (was 0x0, writing 0x40400)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229220] pcieport 0000:00:1c.2: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229228] pcieport 0000:00:1c.2: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229282] pcieport 0000:00:1c.3: restoring config space at offset 0xf (was 0x40400, writing 0x4040b)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229295] pcieport 0000:00:1c.3: restoring config space at offset 0x9 (was 0x10001, writing 0xf0b1f0a1)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229302] pcieport 0000:00:1c.3: restoring config space at offset 0x8 (was 0x0, writing 0xf040f040)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229308] pcieport 0000:00:1c.3: restoring config space at offset 0x7 (was 0x20000000, writing 0x2020)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229319] pcieport 0000:00:1c.3: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229327] pcieport 0000:00:1c.3: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229380] pcieport 0000:00:1c.4: restoring config space at offset 0xf (was 0x100, writing 0x4010a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229393] pcieport 0000:00:1c.4: restoring config space at offset 0x9 (was 0x10001, writing 0xa0d1a0c1)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229400] pcieport 0000:00:1c.4: restoring config space at offset 0x8 (was 0xfff0, writing 0xa0b0a0a0)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229406] pcieport 0000:00:1c.4: restoring config space at offset 0x7 (was 0x20000000, writing 0x7070)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229417] pcieport 0000:00:1c.4: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229425] pcieport 0000:00:1c.4: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229479] pcieport 0000:00:1c.5: restoring config space at offset 0xf (was 0x40200, writing 0x4020a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229493] pcieport 0000:00:1c.5: restoring config space at offset 0x9 (was 0x10001, writing 0xf091f091)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229499] pcieport 0000:00:1c.5: restoring config space at offset 0x8 (was 0x0, writing 0xa110a0e0)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229506] pcieport 0000:00:1c.5: restoring config space at offset 0x7 (was 0x20000000, writing 0x3030)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229516] pcieport 0000:00:1c.5: restoring config space at offset 0x3 (was 0x810000, writing 0x810010)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229524] pcieport 0000:00:1c.5: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229573] ehci_hcd 0000:00:1d.0: restoring config space at offset 0xf (was 0x100, writing 0x10b)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229594] ehci_hcd 0000:00:1d.0: restoring config space at offset 0x4 (was 0x0, writing 0xf0807000)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229603] ehci_hcd 0000:00:1d.0: restoring config space at offset 0x1 (was 0x2900000, writing 0x2900102)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229631] pci 0000:00:1e.0: restoring config space at offset 0xf (was 0x40000, writing 0x400ff)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229644] pci 0000:00:1e.0: restoring config space at offset 0x9 (was 0x10001, writing 0x1fff1)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229650] pci 0000:00:1e.0: restoring config space at offset 0x8 (was 0x0, writing 0xfff0)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229657] pci 0000:00:1e.0: restoring config space at offset 0x7 (was 0x22800000, writing 0x228000f0)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229670] pci 0000:00:1e.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100107)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229736] ahci 0000:00:1f.2: restoring config space at offset 0xf (was 0x200, writing 0x20b)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229760] ahci 0000:00:1f.2: restoring config space at offset 0x1 (was 0x2b00007, writing 0x2b00407)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229833] pci 0000:00:1f.6: restoring config space at offset 0xf (was 0x300, writing 0x30a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229902] iwlagn 0000:03:00.0: restoring config space at offset 0xf (was 0x100, writing 0x10a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229939] iwlagn 0000:03:00.0: restoring config space at offset 0x4 (was 0x4, writing 0xf0500004)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229948] iwlagn 0000:03:00.0: restoring config space at offset 0x3 (was 0x0, writing 0x10)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.229959] iwlagn 0000:03:00.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100506)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.230047] r8169 0000:09:00.0: restoring config space at offset 0xf (was 0x1ff, writing 0x10a)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.230062] r8169 0000:09:00.0: restoring config space at offset 0x8 (was 0xc, writing 0xf090000c)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.230071] r8169 0000:09:00.0: restoring config space at offset 0x6 (was 0xc, writing 0xf090400c)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.230079] r8169 0000:09:00.0: restoring config space at offset 0x4 (was 0x1, writing 0x3001)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.230085] r8169 0000:09:00.0: restoring config space at offset 0x3 (was 0x0, writing 0x10)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.230093] r8169 0000:09:00.0: restoring config space at offset 0x1 (was 0x100000, writing 0x100507)
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.490522] i915 0000:00:02.0: setting latency timer to 64
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.963700] ehci_hcd 0000:00:1a.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.963707] ehci_hcd 0000:00:1a.0: setting latency timer to 64
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.963720] HDA Intel 0000:00:1b.0: PCI INT A -> GSI 22 (level, low) -> IRQ 22
+Dec 25 19:05:09 TomislavSMitic kernel: [290504.963726] HDA Intel 0000:00:1b.0: setting latency timer to 64
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.066446] ehci_hcd 0000:00:1d.0: PCI INT A -> GSI 23 (level, low) -> IRQ 23
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.066459] ehci_hcd 0000:00:1d.0: setting latency timer to 64
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.066472] pci 0000:00:1e.0: setting latency timer to 64
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.066486] ahci 0000:00:1f.2: setting latency timer to 64
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.080227] pci 0000:00:1f.3: PCI INT C -> GSI 18 (level, low) -> IRQ 18
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.080331] r8169 0000:09:00.0: wake-up capability disabled by ACPI
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.080337] r8169 0000:09:00.0: PME# disabled
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.100228] r8169 0000:09:00.0: eth0: link down
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.144194] sd 0:0:0:0: [sda] Starting disk
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.401577] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.403450] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.403454] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.406015] ata1.00: ACPI cmd ef/10:03:00:00:00:a0 (SET FEATURES) filtered out
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.406018] ata1.00: ACPI cmd f5/00:00:00:00:00:a0 (SECURITY FREEZE LOCK) filtered out
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.406414] ata1.00: configured for UDMA/100
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.417567] ata6: SATA link down (SStatus 0 SControl 300)
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.424066] ata5: SATA link down (SStatus 0 SControl 300)
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.811893] ata2: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.813763] ata2.00: _GTF unexpected object type 0x1
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.815890] ata2.00: _GTF unexpected object type 0x1
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.815910] ata2.00: configured for UDMA/66
+Dec 25 19:05:09 TomislavSMitic kernel: [290505.824066] usb 1-1.2: reset high speed USB device using ehci_hcd and address 3
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.227835] usb 2-1.2: reset low speed USB device using ehci_hcd and address 3
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.583686] usb 2-1.4: reset high speed USB device using ehci_hcd and address 4
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.720762] Registered led device: iwl-phy0::radio
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.720784] Registered led device: iwl-phy0::assoc
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.720804] Registered led device: iwl-phy0::RX
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.720819] Registered led device: iwl-phy0::TX
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.819744] usb 1-1.1: reset high speed USB device using ehci_hcd and address 20
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.921075] PM: Finishing wakeup.
+Dec 25 19:05:09 TomislavSMitic kernel: [290506.921077] Restarting tasks ... done.
+Dec 25 19:05:09 TomislavSMitic acpid: client 1541[0:0] has disconnected
+Dec 25 19:05:09 TomislavSMitic acpid: client connected from 1541[0:0]
+Dec 25 19:05:09 TomislavSMitic acpid: 1 client rule loaded
+Dec 25 19:05:09 TomislavSMitic anacron[22360]: Anacron 2.3 started on 2011-12-25
+Dec 25 19:05:09 TomislavSMitic anacron[22360]: Normal exit (0 jobs run)
+Dec 25 19:05:11 TomislavSMitic anacron[22423]: Anacron 2.3 started on 2011-12-25
+Dec 25 19:05:11 TomislavSMitic anacron[22423]: Normal exit (0 jobs run)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.069586] CPU0 attaching NULL sched-domain.
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.069594] CPU1 attaching NULL sched-domain.
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.069598] CPU2 attaching NULL sched-domain.
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.069601] CPU3 attaching NULL sched-domain.
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095566] CPU0 attaching sched-domain:
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095571]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095575]   groups: group ffff88000520fae0 cpus 0 (cpu_power = 589) group ffff88000530fae0 cpus 2 (cpu_power = 589)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095584]   domain 1: span 0-3 level MC
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095587]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095597] CPU1 attaching sched-domain:
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095599]  domain 0: span 1,3 level SIBLING
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095602]   groups: group ffff88000528fae0 cpus 1 (cpu_power = 589) group ffff88000538fae0 cpus 3 (cpu_power = 589)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095610]   domain 1: span 0-3 level MC
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095613]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095622] CPU2 attaching sched-domain:
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095624]  domain 0: span 0,2 level SIBLING
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095627]   groups: group ffff88000530fae0 cpus 2 (cpu_power = 589) group ffff88000520fae0 cpus 0 (cpu_power = 589)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095634]   domain 1: span 0-3 level MC
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095637]    groups: group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178) group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095646] CPU3 attaching sched-domain:
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095648]  domain 0: span 1,3 level SIBLING
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095651]   groups: group ffff88000538fae0 cpus 3 (cpu_power = 589) group ffff88000528fae0 cpus 1 (cpu_power = 589)
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095658]   domain 1: span 0-3 level MC
+Dec 25 19:05:11 TomislavSMitic kernel: [290509.095661]    groups: group ffff88000528fbf0 cpus 1,3 (cpu_power = 1178) group ffff88000520fbf0 cpus 0,2 (cpu_power = 1178)
+Dec 25 19:05:16 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:05:16 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:05:16 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:05:16 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:05:16 TomislavSMitic dhclient: 
+Dec 25 19:05:16 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:16 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:16 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:05:16 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:05:16 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:05:16 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.497925] Registered led device: iwl-phy0::radio
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.497949] Registered led device: iwl-phy0::assoc
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.497971] Registered led device: iwl-phy0::RX
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.497991] Registered led device: iwl-phy0::TX
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.529626] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:05:16 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:05:16 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:05:16 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:05:16 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:05:16 TomislavSMitic dhclient: 
+Dec 25 19:05:16 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:05:16 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:05:16 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:05:16 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 19:05:16 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:05:16 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:05:16 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 19:05:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 19:05:16 TomislavSMitic dhclient: send_packet: Network is down
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.647138] r8169 0000:09:00.0: eth0: link down
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.648142] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 19:05:16 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:05:16 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:05:16 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:05:16 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:05:16 TomislavSMitic dhclient: 
+Dec 25 19:05:16 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:16 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:16 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:05:16 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:05:16 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:05:16 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.806986] Registered led device: iwl-phy0::radio
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.807016] Registered led device: iwl-phy0::assoc
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.807041] Registered led device: iwl-phy0::RX
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.807066] Registered led device: iwl-phy0::TX
+Dec 25 19:05:16 TomislavSMitic kernel: [290513.833880] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:05:17 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:05:17 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:05:17 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:05:17 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:05:17 TomislavSMitic dhclient: 
+Dec 25 19:05:17 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:17 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:17 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:05:17 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:05:17 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:05:17 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:05:17 TomislavSMitic kernel: [290514.893359] Registered led device: iwl-phy0::radio
+Dec 25 19:05:17 TomislavSMitic kernel: [290514.893383] Registered led device: iwl-phy0::assoc
+Dec 25 19:05:17 TomislavSMitic kernel: [290514.893405] Registered led device: iwl-phy0::RX
+Dec 25 19:05:17 TomislavSMitic kernel: [290514.893424] Registered led device: iwl-phy0::TX
+Dec 25 19:05:17 TomislavSMitic kernel: [290514.934901] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:05:17 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:05:17 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:05:17 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:05:17 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:05:17 TomislavSMitic dhclient: 
+Dec 25 19:05:17 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:05:17 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:05:17 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:05:17 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 19:05:17 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:05:17 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:05:17 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 19:05:17 TomislavSMitic kernel: [290515.059202] r8169 0000:09:00.0: eth0: link down
+Dec 25 19:05:17 TomislavSMitic kernel: [290515.060168] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.069698] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.073126] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.073198] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.077307] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.077378] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.078280] wlan0: direct probe responded
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.078288] wlan0: authenticate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.104509] wlan0: authenticated
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.104542] wlan0: associate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.120068] wlan0: RX AssocResp from 68:7f:74:23:b7:95 (capab=0x411 status=0 aid=2)
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.120073] wlan0: associated
+Dec 25 19:05:18 TomislavSMitic kernel: [290516.123960] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Dec 25 19:05:20 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 19:05:20 TomislavSMitic avahi-daemon[1698]: New relevant interface wlan0.IPv6 for mDNS.
+Dec 25 19:05:20 TomislavSMitic avahi-daemon[1698]: Registering new address record for fe80::226:c7ff:fe23:12f8 on wlan0.*.
+Dec 25 19:05:22 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 19:05:22 TomislavSMitic kernel: [290519.245013] sd 23:0:0:0: [sdd] 7744512 512-byte logical blocks: (3.96 GB/3.69 GiB)
+Dec 25 19:05:22 TomislavSMitic kernel: [290519.246963] sd 23:0:0:0: [sdd] Assuming drive cache: write through
+Dec 25 19:05:22 TomislavSMitic kernel: [290519.252954] sd 23:0:0:0: [sdd] Assuming drive cache: write through
+Dec 25 19:05:22 TomislavSMitic kernel: [290519.252962]  sdd: sdd1
+Dec 25 19:05:23 TomislavSMitic kernel: [290521.064828] FAT: utf8 is not a recommended IO charset for FAT filesystems, filesystem will be case sensitive!
+Dec 25 19:05:28 TomislavSMitic kernel: [290526.135254] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 19:05:28 TomislavSMitic kernel: [290526.168333] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.367706] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 2)
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.397372] wlan0: direct probe responded
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.397379] wlan0: authenticate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.399465] wlan0: authenticated
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.399507] wlan0: associate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.404729] wlan0: RX AssocResp from 68:7f:74:23:b7:95 (capab=0x411 status=0 aid=2)
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.404735] wlan0: associated
+Dec 25 19:05:29 TomislavSMitic kernel: [290526.622525] wlan0: no IPv6 routers present
+Dec 25 19:05:29 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:05:29 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:05:29 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:05:29 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:05:29 TomislavSMitic dhclient: 
+Dec 25 19:05:29 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:29 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:05:29 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:05:31 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 7
+Dec 25 19:05:35 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Dec 25 19:05:38 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 14
+Dec 25 19:05:40 TomislavSMitic ntpd[1885]: Deleting interface #23 eth0:avahi, 169.254.8.11#123, interface stats: received=0, sent=0, dropped=0, active_time=38700 secs
+Dec 25 19:05:40 TomislavSMitic ntpd[1885]: Deleting interface #21 wlan0, 192.168.1.118#123, interface stats: received=435, sent=448, dropped=1, active_time=54900 secs
+Dec 25 19:05:40 TomislavSMitic ntpd[1885]: 96.44.157.90 interface 192.168.1.118 -> (null)
+Dec 25 19:05:40 TomislavSMitic ntpd[1885]: 173.255.219.242 interface 192.168.1.118 -> (null)
+Dec 25 19:05:40 TomislavSMitic ntpd[1885]: 173.193.227.67 interface 192.168.1.118 -> (null)
+Dec 25 19:05:40 TomislavSMitic ntpd[1885]: 216.45.57.38 interface 192.168.1.118 -> (null)
+Dec 25 19:05:48 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Dec 25 19:05:52 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 14
+Dec 25 19:06:00 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Dec 25 19:06:06 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 17
+Dec 25 19:06:07 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Dec 25 19:06:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 1
+Dec 25 19:06:17 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 19:06:17 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 19:06:17 TomislavSMitic avahi-autoipd(eth0)[22568]: Found user 'avahi-autoipd' (UID 104) and group 'avahi-autoipd' (GID 107).
+Dec 25 19:06:17 TomislavSMitic avahi-autoipd(eth0)[22568]: Successfully called chroot().
+Dec 25 19:06:17 TomislavSMitic avahi-autoipd(eth0)[22568]: Successfully dropped root privileges.
+Dec 25 19:06:17 TomislavSMitic avahi-autoipd(eth0)[22568]: Starting with address 169.254.8.11
+Dec 25 19:06:22 TomislavSMitic avahi-autoipd(eth0)[22568]: Callout BIND, address 169.254.8.11 on interface eth0
+Dec 25 19:06:22 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface eth0.IPv4 with address 169.254.8.11.
+Dec 25 19:06:22 TomislavSMitic avahi-daemon[1698]: New relevant interface eth0.IPv4 for mDNS.
+Dec 25 19:06:22 TomislavSMitic avahi-daemon[1698]: Registering new address record for 169.254.8.11 on eth0.IPv4.
+Dec 25 19:06:23 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 9
+Dec 25 19:06:26 TomislavSMitic avahi-autoipd(eth0)[22568]: Successfully claimed IP address 169.254.8.11
+Dec 25 19:06:32 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 19:06:32 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 19:06:32 TomislavSMitic avahi-autoipd(wlan0)[22582]: Found user 'avahi-autoipd' (UID 104) and group 'avahi-autoipd' (GID 107).
+Dec 25 19:06:32 TomislavSMitic avahi-autoipd(wlan0)[22582]: Successfully called chroot().
+Dec 25 19:06:32 TomislavSMitic avahi-autoipd(wlan0)[22582]: Successfully dropped root privileges.
+Dec 25 19:06:32 TomislavSMitic avahi-autoipd(wlan0)[22582]: Starting with address 169.254.8.62
+Dec 25 19:06:36 TomislavSMitic avahi-autoipd(wlan0)[22582]: Callout BIND, address 169.254.8.62 on interface wlan0
+Dec 25 19:06:36 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface wlan0.IPv4 with address 169.254.8.62.
+Dec 25 19:06:36 TomislavSMitic avahi-daemon[1698]: New relevant interface wlan0.IPv4 for mDNS.
+Dec 25 19:06:36 TomislavSMitic avahi-daemon[1698]: Registering new address record for 169.254.8.62 on wlan0.IPv4.
+Dec 25 19:06:40 TomislavSMitic avahi-autoipd(wlan0)[22582]: Successfully claimed IP address 169.254.8.62
+Dec 25 19:06:40 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:06:40 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:06:40 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:06:40 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:06:40 TomislavSMitic dhclient: 
+Dec 25 19:06:40 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:40 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:40 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:06:40 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:06:40 TomislavSMitic avahi-autoipd(wlan0)[22582]: Got SIGTERM, quitting.
+Dec 25 19:06:40 TomislavSMitic avahi-autoipd(wlan0)[22582]: Callout STOP, address 169.254.8.62 on interface wlan0
+Dec 25 19:06:40 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for 169.254.8.62 on wlan0.
+Dec 25 19:06:40 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface wlan0.IPv4 with address 169.254.8.62.
+Dec 25 19:06:40 TomislavSMitic avahi-daemon[1698]: Interface wlan0.IPv4 no longer relevant for mDNS.
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.299665] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 19:06:41 TomislavSMitic avahi-daemon[1698]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Dec 25 19:06:41 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 19:06:41 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for fe80::226:c7ff:fe23:12f8 on wlan0.
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.458052] Registered led device: iwl-phy0::radio
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.458085] Registered led device: iwl-phy0::assoc
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.458112] Registered led device: iwl-phy0::RX
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.458142] Registered led device: iwl-phy0::TX
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.495942] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:06:41 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:06:41 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:06:41 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:06:41 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:06:41 TomislavSMitic dhclient: 
+Dec 25 19:06:41 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:06:41 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:06:41 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:06:41 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 19:06:41 TomislavSMitic avahi-autoipd(eth0)[22568]: Got SIGTERM, quitting.
+Dec 25 19:06:41 TomislavSMitic avahi-autoipd(eth0)[22568]: Callout STOP, address 169.254.8.11 on interface eth0
+Dec 25 19:06:41 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for 169.254.8.11 on eth0.
+Dec 25 19:06:41 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface eth0.IPv4 with address 169.254.8.11.
+Dec 25 19:06:41 TomislavSMitic avahi-daemon[1698]: Interface eth0.IPv4 no longer relevant for mDNS.
+Dec 25 19:06:41 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.852990] r8169 0000:09:00.0: eth0: link down
+Dec 25 19:06:41 TomislavSMitic kernel: [290598.853503] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 19:06:44 TomislavSMitic kernel: [290601.652768] Registered led device: iwl-phy0::radio
+Dec 25 19:06:44 TomislavSMitic kernel: [290601.652793] Registered led device: iwl-phy0::assoc
+Dec 25 19:06:44 TomislavSMitic kernel: [290601.652814] Registered led device: iwl-phy0::RX
+Dec 25 19:06:44 TomislavSMitic kernel: [290601.652835] Registered led device: iwl-phy0::TX
+Dec 25 19:06:44 TomislavSMitic kernel: [290601.668553] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:06:47 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:06:47 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:06:47 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:06:47 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:06:47 TomislavSMitic dhclient: 
+Dec 25 19:06:47 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:47 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:47 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:06:47 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:06:47 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:06:47 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.586430] Registered led device: iwl-phy0::radio
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.586476] Registered led device: iwl-phy0::assoc
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.586516] Registered led device: iwl-phy0::RX
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.586555] Registered led device: iwl-phy0::TX
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.618830] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:06:47 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:06:47 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:06:47 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:06:47 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:06:47 TomislavSMitic dhclient: 
+Dec 25 19:06:47 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:06:47 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:06:47 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:06:47 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 19:06:47 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:06:47 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:06:47 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.751365] r8169 0000:09:00.0: eth0: link down
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.752320] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 19:06:47 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:06:47 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:06:47 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:06:47 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:06:47 TomislavSMitic dhclient: 
+Dec 25 19:06:47 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:47 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:47 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:06:47 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:06:47 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:06:47 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.909657] Registered led device: iwl-phy0::radio
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.909700] Registered led device: iwl-phy0::assoc
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.909739] Registered led device: iwl-phy0::RX
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.909787] Registered led device: iwl-phy0::TX
+Dec 25 19:06:47 TomislavSMitic kernel: [290604.939661] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.077622] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.078002] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.078066] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.084092] wlan0: direct probe responded
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.084097] wlan0: authenticate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.088270] wlan0: authenticated
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.088293] wlan0: associate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.092147] wlan0: RX AssocResp from 68:7f:74:23:b7:95 (capab=0x411 status=0 aid=1)
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.092154] wlan0: associated
+Dec 25 19:06:49 TomislavSMitic kernel: [290607.095299] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Dec 25 19:06:50 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:06:50 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:06:50 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:06:50 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:06:50 TomislavSMitic dhclient: 
+Dec 25 19:06:50 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:50 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:06:50 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:06:51 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 19:06:51 TomislavSMitic avahi-daemon[1698]: New relevant interface wlan0.IPv6 for mDNS.
+Dec 25 19:06:51 TomislavSMitic avahi-daemon[1698]: Registering new address record for fe80::226:c7ff:fe23:12f8 on wlan0.*.
+Dec 25 19:06:52 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 7
+Dec 25 19:06:59 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 12
+Dec 25 19:07:00 TomislavSMitic kernel: [290617.350088] wlan0: no IPv6 routers present
+Dec 25 19:07:11 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 17
+Dec 25 19:07:27 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:07:27 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:07:27 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:07:27 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:07:27 TomislavSMitic dhclient: 
+Dec 25 19:07:27 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:07:27 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:07:27 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:07:28 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 13
+Dec 25 19:07:28 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:07:28 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:07:28 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:07:28 TomislavSMitic kernel: [290645.281642] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 19:07:28 TomislavSMitic avahi-daemon[1698]: Interface wlan0.IPv6 no longer relevant for mDNS.
+Dec 25 19:07:28 TomislavSMitic avahi-daemon[1698]: Leaving mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 19:07:28 TomislavSMitic avahi-daemon[1698]: Withdrawing address record for fe80::226:c7ff:fe23:12f8 on wlan0.
+Dec 25 19:09:01 TomislavSMitic /USR/SBIN/CRON[22805]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -delete)
+Dec 25 19:09:26 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:09:26 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:09:26 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:09:26 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:09:26 TomislavSMitic dhclient: 
+Dec 25 19:09:26 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:09:26 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:09:26 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:09:26 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:09:26 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:09:26 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.703169] Registered led device: iwl-phy0::radio
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.703211] Registered led device: iwl-phy0::assoc
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.703248] Registered led device: iwl-phy0::RX
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.703288] Registered led device: iwl-phy0::TX
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.735444] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.883319] Registered led device: iwl-phy0::radio
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.883351] Registered led device: iwl-phy0::assoc
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.883379] Registered led device: iwl-phy0::RX
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.883409] Registered led device: iwl-phy0::TX
+Dec 25 19:09:26 TomislavSMitic kernel: [290763.911251] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:09:26 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:09:26 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:09:26 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:09:26 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:09:26 TomislavSMitic dhclient: 
+Dec 25 19:09:26 TomislavSMitic dhclient: Listening on LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:09:26 TomislavSMitic dhclient: Sending on   LPF/eth0/c8:0a:a9:2f:b1:79
+Dec 25 19:09:26 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:09:26 TomislavSMitic dhclient: DHCPRELEASE on eth0 to 192.168.1.1 port 67
+Dec 25 19:09:26 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:09:26 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:09:26 TomislavSMitic dhclient: receive_packet failed on eth0: Network is down
+Dec 25 19:09:26 TomislavSMitic kernel: [290764.040261] r8169 0000:09:00.0: eth0: link down
+Dec 25 19:09:26 TomislavSMitic kernel: [290764.041219] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Dec 25 19:09:27 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:09:27 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:09:27 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:09:27 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:09:27 TomislavSMitic dhclient: 
+Dec 25 19:09:27 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:09:27 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:09:27 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:09:27 TomislavSMitic dhclient: DHCPRELEASE on wlan0 to 192.168.1.1 port 67
+Dec 25 19:09:27 TomislavSMitic dhclient: send_packet: Network is unreachable
+Dec 25 19:09:27 TomislavSMitic dhclient: send_packet: please consult README file regarding broadcast address.
+Dec 25 19:09:27 TomislavSMitic kernel: [290764.217123] Registered led device: iwl-phy0::radio
+Dec 25 19:09:27 TomislavSMitic kernel: [290764.217156] Registered led device: iwl-phy0::assoc
+Dec 25 19:09:27 TomislavSMitic kernel: [290764.217184] Registered led device: iwl-phy0::RX
+Dec 25 19:09:27 TomislavSMitic kernel: [290764.217213] Registered led device: iwl-phy0::TX
+Dec 25 19:09:27 TomislavSMitic kernel: [290764.238038] ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.378229] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.378449] wlan0: deauthenticating from 68:7f:74:23:b7:95 by local choice (reason=3)
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.378494] wlan0: direct probe to AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.391637] wlan0: direct probe responded
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.391646] wlan0: authenticate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.405860] wlan0: authenticated
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.405908] wlan0: associate with AP 68:7f:74:23:b7:95 (try 1)
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.411690] wlan0: RX AssocResp from 68:7f:74:23:b7:95 (capab=0x411 status=0 aid=1)
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.411697] wlan0: associated
+Dec 25 19:09:29 TomislavSMitic kernel: [290766.427282] ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Dec 25 19:09:30 TomislavSMitic dhclient: Internet Systems Consortium DHCP Client 4.1.1-P1
+Dec 25 19:09:30 TomislavSMitic dhclient: Copyright 2004-2010 Internet Systems Consortium.
+Dec 25 19:09:30 TomislavSMitic dhclient: All rights reserved.
+Dec 25 19:09:30 TomislavSMitic dhclient: For info, please visit https://www.isc.org/software/dhcp/
+Dec 25 19:09:30 TomislavSMitic dhclient: 
+Dec 25 19:09:30 TomislavSMitic dhclient: Listening on LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:09:30 TomislavSMitic dhclient: Sending on   LPF/wlan0/00:26:c7:23:12:f8
+Dec 25 19:09:30 TomislavSMitic dhclient: Sending on   Socket/fallback
+Dec 25 19:09:31 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface wlan0.IPv6 with address fe80::226:c7ff:fe23:12f8.
+Dec 25 19:09:31 TomislavSMitic avahi-daemon[1698]: New relevant interface wlan0.IPv6 for mDNS.
+Dec 25 19:09:31 TomislavSMitic avahi-daemon[1698]: Registering new address record for fe80::226:c7ff:fe23:12f8 on wlan0.*.
+Dec 25 19:09:33 TomislavSMitic dhclient: DHCPDISCOVER on wlan0 to 255.255.255.255 port 67 interval 6
+Dec 25 19:09:33 TomislavSMitic dhclient: DHCPOFFER from 192.168.1.1
+Dec 25 19:09:33 TomislavSMitic dhclient: DHCPREQUEST on wlan0 to 255.255.255.255 port 67
+Dec 25 19:09:33 TomislavSMitic dhclient: DHCPACK from 192.168.1.1
+Dec 25 19:09:33 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface wlan0.IPv4 with address 192.168.1.118.
+Dec 25 19:09:33 TomislavSMitic avahi-daemon[1698]: New relevant interface wlan0.IPv4 for mDNS.
+Dec 25 19:09:33 TomislavSMitic avahi-daemon[1698]: Registering new address record for 192.168.1.118 on wlan0.IPv4.
+Dec 25 19:09:33 TomislavSMitic dhclient: bound to 192.168.1.118 -- renewal in 39349 seconds.
+Dec 25 19:09:40 TomislavSMitic kernel: [290777.214677] wlan0: no IPv6 routers present
+Dec 25 19:10:40 TomislavSMitic ntpd[1885]: Listen normally on 24 wlan0 192.168.1.118 UDP 123
+Dec 25 19:11:17 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Dec 25 19:11:23 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Dec 25 19:11:34 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Dec 25 19:11:51 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Dec 25 19:12:01 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Dec 25 19:12:16 TomislavSMitic dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 2
+Dec 25 19:12:18 TomislavSMitic dhclient: No DHCPOFFERS received.
+Dec 25 19:12:18 TomislavSMitic dhclient: No working leases in persistent database - sleeping.
+Dec 25 19:12:18 TomislavSMitic avahi-autoipd(eth0)[23051]: Found user 'avahi-autoipd' (UID 104) and group 'avahi-autoipd' (GID 107).
+Dec 25 19:12:18 TomislavSMitic avahi-autoipd(eth0)[23051]: Successfully called chroot().
+Dec 25 19:12:18 TomislavSMitic avahi-autoipd(eth0)[23051]: Successfully dropped root privileges.
+Dec 25 19:12:18 TomislavSMitic avahi-autoipd(eth0)[23051]: Starting with address 169.254.8.11
+Dec 25 19:12:23 TomislavSMitic avahi-autoipd(eth0)[23051]: Callout BIND, address 169.254.8.11 on interface eth0
+Dec 25 19:12:23 TomislavSMitic avahi-daemon[1698]: Joining mDNS multicast group on interface eth0.IPv4 with address 169.254.8.11.
+Dec 25 19:12:23 TomislavSMitic avahi-daemon[1698]: New relevant interface eth0.IPv4 for mDNS.
+Dec 25 19:12:23 TomislavSMitic avahi-daemon[1698]: Registering new address record for 169.254.8.11 on eth0.IPv4.
+Dec 25 19:12:27 TomislavSMitic avahi-autoipd(eth0)[23051]: Successfully claimed IP address 169.254.8.11

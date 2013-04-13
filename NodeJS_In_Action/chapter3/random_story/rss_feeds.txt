@@ -1,0 +1,8 @@
+http://feeds.pcworld.com/pcworld/latestnews
+http://feeds.pcworld.com/pcworld/update/reviews
+http://feeds.pcworld.com/pcworld/update/howto
+http://feeds.pcworld.com/pcworld/blogs/todayatpcw
+http://feeds.pcworld.com/pcworld/business
+http://www.npr.org/rss/rss.php?id=1001
+http://www.npr.org/rss/rss.php?id=100
+http://www.npr.org/rss/rss.php?id=1008
